@@ -8,8 +8,8 @@ A)
    2. Polymorphism
    3. Abstraction
    4. Encapsulation
-   5. Object, Class, Real meaning of Object-Oriented and Procedure-Oriented programming
-   6. Java OOPs Misc
+   5. Object, Class, Real meaning of Object-Oriented and Procedure-Oriented programming // later
+   6. Java OOPs Misc // later
 
 B)
 -> More About Java
@@ -42,4 +42,5 @@ E)
   1) Practice Java Code
 
 --------------------------------------------
+
 

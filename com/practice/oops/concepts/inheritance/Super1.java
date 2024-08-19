@@ -9,6 +9,7 @@ public class Super1 {
     }
 
     Super1(){
+
         System.out.println("HI");
     }
 
@@ -23,4 +24,11 @@ public class Super1 {
     public int getNumber() {
         return number;
     }
+
+
+    //TODO: Why multiple inheritance is not supported??
+
+    //++++++++++++++++++++++++++++++++++++++++++++
+    //TODO: PENDING JAVA T POINT WE WILL LEARN LATER
+
 }

@@ -21,7 +21,8 @@ A a=new B();//upcasting
   class Animal{  
   void eat(){System.out.println("animal is eating...");}  
   }  
-  class Dog extends Animal{  
+  class Dog extends Animal{ 
+  @override
   void eat(){System.out.println("dog is eating...");}  
   }  
   class BabyDog1 extends Dog{  
