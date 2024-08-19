@@ -10,4 +10,5 @@ After that:
 Git Command: git remote set-url origin https://<your-username>:<new-token>@github.com/antu6183/Java-practice.git
 Repo path -> antu6183/Java-practice.git(not sure)
 
-git remote set-url origin https://PS75215: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@github.com/antu6183/Java-practice.git
+Commit ->
+Push ->  git push origin feature/7182024/java-basic
