@@ -7,7 +7,6 @@ Generate Personal access token(PAT) and give access to repo
 Generate PAT: Settings-> developers setting -> PAT
 
 After that:
-Git Command: git remote set-url origin https://<your-username>:<new-token>@github.com/antu6183/Java-practice.git
 Repo path -> antu6183/Java-practice.git(not sure)
 
 Commit ->
