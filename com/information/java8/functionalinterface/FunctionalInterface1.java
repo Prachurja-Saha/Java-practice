@@ -15,5 +15,8 @@ public interface FunctionalInterface1 {
 
     static void main(String[] args) {
         System.out.println("Hello from interface1");
+
+        FunctionalInterface1 functionalInterface1 = ()-> System.out.println("add method implementation");
+        functionalInterface1.add();
     }
 }

@@ -1,4 +1,4 @@
-package com.information.collection.list;
+package com.information.collectionframework.collectioninterface.list;
 
 
 import java.util.Iterator;
@@ -6,9 +6,13 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * DoublyLinked List
+ * Here LikedList Also Implements Deque interface which extends Queue Interface
+ *
  * Java LinkedList class maintains insertion order.
  * Java LinkedList class is non synchronized.
  * In Java LinkedList class, manipulation is fast because no shifting needs to occur.
+ * Better in insertion in first and middle
  */
 public class LinkedListTest {
 
@@ -30,6 +34,12 @@ public class LinkedListTest {
         linkedList1.remove(1); // 1 is index // remove is present in List also but this one is diff
         linkedList1.removeFirst();
 
+        /*
+        * ArrayList.add(1, "10") is generally better for random access and smaller lists,
+        * while LinkedList.add(1, "10") is better for frequent insertions at arbitrary positions.*/
+        // o(n) inserting at a specific index involves traversing the list to that index
+        linkedList1.add(1,"10");
+
         System.out.println(linkedList1);
 
         Iterator<String> iterator = linkedList1.iterator();
@@ -41,10 +51,12 @@ public class LinkedListTest {
         //     b/c  To insert in first in arraylist we need to shift all the elements in Array list
         //     time complexity -> O(n) but for linklist O(1)
         //
+        //   Does not matter if u know insertion point or not both o(n) b/c of traversing(linklist) and shifting(Arraylist)
         //   LinkList  Insert in middle ->  in linklist need to traverse to the insertion point -> o(n)
         //                                  and then insertion o(1) total time complexity -> o(n) + o(1) = o(n)
         //                                  if i have reference of the node than -> o(1) for insertion
-        //   ArrayList Insert in middle -> o(n) due to shifting elements. Insertion point included implicitly
+        //   ArrayList Insert in middle -> o(n) due to shifting elements. Insertion time o(1)
+        //   Arraylist is better for inserting middle
         //   for Insertion in middle both -> o(n)
     }
 

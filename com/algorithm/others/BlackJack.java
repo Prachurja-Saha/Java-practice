@@ -1,4 +1,4 @@
-package com.practice.coding;
+package com.algorithm.others;
 
 import java.util.ArrayList;
 import java.util.Collections;

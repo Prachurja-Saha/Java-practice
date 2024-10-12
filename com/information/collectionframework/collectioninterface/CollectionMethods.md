@@ -1,3 +1,4 @@
+
 # Collection Method
 1) boolean add(e)
 2) boolean addAll(Collection<? extends E> c) -> [ ? -> wildcard means any type which extends E) ]

@@ -1,18 +1,26 @@
-package com.information.collection.list;
+package com.information.collectionframework.collectioninterface.list;
 
 
 import java.util.*;
 
 /**
- * Dynamic Array Size is not fix
+ * Dynamic Array Size is not fix double if capacity full initial capacity 10
  */
 public class ArrayListTest {
 
+    /*
+    *  The time complexity for list.add(1) in an ArrayList is O(1) on average. However,
+    * if the internal array needs to be resized (when it reaches its capacity),
+    * the time complexity for that specific operation would be O(n) due to copying elements to the new array.
+    * But overall, adding an element is typically considered O(1) for average cases.
+    *
+    * if insertion at beginning or i middle than o(n) b/c of shifting elements
+    * */
 
 
     public static void main(String[] args) {
 
-        Collection<?> c = new ArrayList<>();
+        Collection<?> c = new ArrayList<>(); // b/c Collection<E> -> not Collection<?>
 //        c.add("Amit"); C.T->  it indicates that the collection can hold elements of an unknown type.
 //        The compiler does not know what specific type of elements are valid to add to the collection,
 //        so it prevents you from adding anything to it.

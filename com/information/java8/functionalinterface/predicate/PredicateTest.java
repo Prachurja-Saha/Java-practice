@@ -17,9 +17,12 @@ public class PredicateTest { // Predicate is a functional interface where Test(x
         // AND, OR, NEGATE
         Predicate<Integer> divisibleBy5 = (x) -> x%5==0; // if x divisible by 5 -> true
         Predicate<Integer> divisibleBy3 = (x) -> x%3==0; // if x divisible by 3 -> true
+        Predicate<String> checkNameSize = (s) -> s.length()<10;
 
         Predicate<Integer> divisibleBy3And5 = divisibleBy3.and(divisibleBy5); // return true if 2 predicates true
         Predicate<Integer> divisibleBy3OR5 = divisibleBy3.or(divisibleBy5); // if any predicates true then true
+
+       // checkNameSize.and(divisibleBy5) C.T//  divisibleBy5 Not allowed only String allowed
 
         System.out.println(divisibleBy3And5.test(100)); // return false not divisible by 3
         System.out.println(divisibleBy3And5.test(15));

@@ -61,6 +61,7 @@ public class Extra {
         // Local scope only: var can only be used for local variables inside methods,
         // constructors, or code blocks. You cannot use var for method parameters, return types,
         // or fields in a class.
+        // Java 10
         var num = 10;
         var xyz = "Java 10 features";  // The type of the variable is inferred at compile time
         var varList = new ArrayList<String>();

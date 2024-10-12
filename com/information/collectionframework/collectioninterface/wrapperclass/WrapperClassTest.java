@@ -1,4 +1,4 @@
-package com.information.collection.wrapperclass;
+package com.information.collectionframework.collectioninterface.wrapperclass;
 
 public class WrapperClassTest {
 

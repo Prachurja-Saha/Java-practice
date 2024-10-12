@@ -14,6 +14,14 @@ public class ComparableTest implements Comparable<ComparableTest> {
         this.name = name;
     }
 
+    public int getRoll() {
+        return roll;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     // In comparable there is compare to method needs to override
     // Because of this we can only sort by roll means we cannot sort by name or other fields
     // for that we need comparator -> compare method

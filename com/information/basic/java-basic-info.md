@@ -96,5 +96,6 @@ It can be initialized only in static block.
 
 2. Non-Primitive -> Size not fix. -> Object type stores in heap memory
     String s = "abc" -> reference variable
+    Integer x = 11 size not fixed
 
 ### -> == compares object reference only allowed for primitive and String literal

@@ -1,6 +1,13 @@
 package com.information.java8.functionalinterface.comparator;
 
-public class ComparatorTest {
+import java.util.Comparator;
+
+public class ComparatorTest implements Comparator {
+
+    @Override
+    public int compare(Object o1, Object o2) {
+        return 0;
+    }
 
 //    compareTo() Method Behavior:
 //If the values are equal: compareTo() will return 0.

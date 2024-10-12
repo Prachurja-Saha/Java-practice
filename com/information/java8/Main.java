@@ -4,6 +4,7 @@ import com.information.java8.functionalinterface.FunctionalInterface1;
 import com.information.java8.functionalinterface.FunctionalInterface2;
 import com.information.java8.functionalinterface.MySort;
 import com.information.java8.functionalinterface.comparable.ComparableTest;
+import com.information.java8.functionalinterface.comparator.ComparatorTest;
 
 import java.util.*;
 
@@ -28,7 +29,9 @@ public class Main implements FunctionalInterface1, FunctionalInterface2 {
         List<Integer> integerList = new ArrayList<>(Arrays.asList(20,10,1,90,-11));
 
         // sort(List<T> list, Comparator<? super T> c) -> ? b/c if type is List then inside can be any thing
-        Collections.sort(integerList, new MySort<Integer>());
+        Collections.sort(integerList, new MySort<Integer>());// mysort implements comparator
+        // Upcasting  Comparator<? super Integer> xyz = new MySort<>() // internally ths happened
+
         System.out.println(integerList);
 
         //USING LAMBDA b/c COMPARATOR IS FUNCTIONAL INTERFACE - Comparator<Integer> comparatorLambdaTest = (Integer o1, Integer o2)-> o1-o2;
@@ -52,6 +55,10 @@ public class Main implements FunctionalInterface1, FunctionalInterface2 {
 //        comparatorTest.sort((o1,o2) -> o1.roll- o2.roll);
         // TODO:------------------------------------------------
 //        comparatorTest.sort(Comparator.comparing()); // Here comparing is static method
+
+        comparatorTest.sort(Comparator.comparing(ComparableTest::getName).thenComparing(ComparableTest::getRoll));
+        // Function<T,U> T -> ComparableTest U -> Return type (String)
+        // Implicitly T -> ComparableTest
 
 
 

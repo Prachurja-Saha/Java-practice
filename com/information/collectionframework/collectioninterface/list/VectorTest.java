@@ -1,4 +1,4 @@
-package com.information.collection.list;
+package com.information.collectionframework.collectioninterface.list;
 
 
 public class VectorTest {
