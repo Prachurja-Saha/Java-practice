@@ -1,5 +1,10 @@
 package com.information.basic;
 
+class A{
+    static {
+        System.out.println("static block A");
+    }
+}
 public class StaticClassTest { // static class should be Inner class or nested class
     // like static method no instance member can be accessed only static member
 
@@ -14,6 +19,10 @@ public class StaticClassTest { // static class should be Inner class or nested c
             System.out.println("static inner class" + x);
         }
 
+    }
+
+    static {
+        System.out.println("static block");
     }
 
     /*
@@ -38,6 +47,9 @@ public class StaticClassTest { // static class should be Inner class or nested c
         // It stored in heap area
         // so question is what extra with this static class ?
         // Ans : can be accessed without a instance of its outer class
+
+        /* when we create a object of A static block A will run First*/
+        A a = new A();
 
     }
 

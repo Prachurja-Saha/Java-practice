@@ -1,5 +1,7 @@
 package com.information.basic;
 
+import com.information.basic.singelton.EnumTest;
+
 public class MainClass {
 
     public String a;

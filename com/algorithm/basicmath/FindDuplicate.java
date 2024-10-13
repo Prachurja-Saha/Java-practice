@@ -87,18 +87,26 @@ public class FindDuplicate {
                         .toArray()));
 
 
-        /*Anagram*/
-        String a = "abss";
-        String b = "ssba";
+        /*Anagram*/       //Not working
+//        String a = "abss";
+//        String b = "ssba";
+//
+//
+//        IntStream.range(0,a.length()).anyMatch(i -> {
+//            if(b.contains(Character.toUpperCase(a.charAt(i))+"")) {
+//                b.replace(a.charAt(i)+"","");
+//                return true;
+//            }
+//            return false;
+//        });
 
+        Scanner sc=new Scanner(System.in);
+        String A= sc.nextLine(); //sc.next();
 
-        IntStream.range(0,a.length()).anyMatch(i -> {
-            if(b.contains(Character.toUpperCase(a.charAt(i))+"")) {
-                b.replace(a.charAt(i)+"","");
-                return true;
-            }
-            return false;
-        });
+        boolean result = Stream.iterate(0, i-> i<=(A.length()-1)/2 ,i -> i+1)
+                .allMatch(i -> A.charAt(i) == A.charAt(A.length()-1-i));
+
+        System.out.println(result);
 
     }
 

@@ -5,7 +5,8 @@ import java.util.Comparator;
 public class ComparatorTest implements Comparator {
 
     @Override
-    public int compare(Object o1, Object o2) {
+    public int compare(Object o1, Object o2) { // Here instead of Object U have to Provide Generic T or any Class Obj
+        // Then we can compare by that
         return 0;
     }
 

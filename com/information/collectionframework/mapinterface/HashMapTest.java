@@ -45,7 +45,7 @@ public class HashMapTest {
         hashMap.put(4, null);
 
         // Methods
-        hashMap.get("Amit");
+        hashMap.get("Amit"); // only get values not key so we need Map.Entry
         hashMap.putAll(newHashMap);
         hashMap.putIfAbsent(8, "Ram");
 
@@ -71,7 +71,7 @@ public class HashMapTest {
         // Same work for Bi Functional interface with 2 parameters
         //                    -> (K key,BiFunction<? super K, ? super V, ? extends V> remappingFunction)
         hashMap.computeIfPresent(2, (k, v) -> "Updated Name");
-        hashMap.computeIfPresent(6, (k, v) -> "Empty Result"); // this will not work b/c key-6 value is null
+        hashMap.computeIfPresent(6, (k, v) -> v + "Empty Result"); // this will not work b/c key-6 value is null
         hashMap.computeIfAbsent(4, (k) -> {
             if (k < 10) return "Empty Result";
             else return "keySize is greater than 10";

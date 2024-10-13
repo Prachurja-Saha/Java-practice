@@ -3,6 +3,8 @@ package com.information.java8.streamapi;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamAPITest {
@@ -48,8 +50,8 @@ public class StreamAPITest {
 
         /* Testing operation
                 1. Creation
-                2. Intermediate(filter,map, flatMap, distinct, sorted..etc)
-                3. Terminal(foreach, count,max,min..etc) after terminal stream operation will stop
+                2. Intermediate(filter,map, flatMap, distinct, sorted..etc)(mapToObj -> IntStream)
+                3. Terminal(foreach,matchAny, count,max,min..etc) after terminal stream operation will stop
         *
         * Intermediate operations return a new stream and can be chained together,
         *
@@ -106,6 +108,12 @@ public class StreamAPITest {
         * */
 
 
+        /* Map
+        *  by using the map() function in Java streams, you can convert elements from one type to any other type,
+        * including transforming them into different objects
+        * */
+
+
 
 
 
@@ -142,6 +150,47 @@ public class StreamAPITest {
 
         System.out.println("Calculating prime");
         System.out.println(stringList);
+
+
+        /* Flat Map */
+
+        List<List<Integer>> listOfLists = Arrays.asList(
+                Arrays.asList(1, 2, 3),
+                Arrays.asList(4, 5),
+                Arrays.asList(6, 7, 8)
+        );
+
+        // <R> Stream<R> flatMap(Function<? super T, ? extends Stream<? extends R>> mapper) -> Return type is Stream so
+        // Ternary Operator inside flatmap b/c return type is Stream
+        // Filtering Even no.
+        /* flatMap() is used in Java Streams to flatten nested structures (like a Stream of Streams) into a single stream. */
+        System.out.println("Using Flat Map : "+listOfLists.stream().flatMap( list -> list.stream()
+                .filter(element -> element%2 ==0 ).map(element -> element+ " is Even")).toList()); // Single Stream
+
+        List<List<String>> result = listOfLists.stream()
+                .map(list -> list.stream()  // Process each inner list
+                        .filter(element -> element % 2 == 0)  // Filter even numbers
+                        .map(element -> element + " is Even")  // Transform each element
+                        .collect(Collectors.toList()))  // Collect to a list
+                .collect(Collectors.toList());  /* Not Sngle Stream*/
+
+        System.out.println(" Using Map : "+result);
+
+
+
+        /* Merge Two unsorted array and then sort with distinct values */
+        int[] a = {1,10,2,3,12,11};
+        int[] b = {1,7,0,-1,22,102};
+
+        // Concat method contains 2 IntStream
+        int[] sortedArray = IntStream.concat(Arrays.stream(a),Arrays.stream(b)).sorted()
+                .distinct().toArray();
+
+        for(int i : sortedArray){
+            System.out.print(i+" ");
+        }
+
+
 
 
     }
