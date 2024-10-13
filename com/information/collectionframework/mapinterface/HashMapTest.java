@@ -2,9 +2,7 @@ package com.information.collectionframework.mapinterface;
 
 // HashMap implements Map Interface
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 class User {
@@ -147,6 +145,13 @@ public class HashMapTest {
                 ));
 
         System.out.println("sorted map :" + sortedLinkedHashMap);
+
+        // It is not collection so only one value can be added
+        Map.Entry<Integer,String> newSetOfEntry = new AbstractMap.SimpleEntry<>(1,"Amit");
+        // so we need both map-> creation and map.entry-> operation(get key , get value, usage of stream api)
+
+        Set<Map.Entry<Integer, String>> setOfMapEntry = mapEntry.entrySet();
+        setOfMapEntry.add(newSetOfEntry);
 
     }
 

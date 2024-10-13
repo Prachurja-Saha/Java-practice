@@ -72,7 +72,7 @@ public class ExceptionTest {
         /* Custom Exception -> extends at Runtime to handle runtime exception and called the super constructor*/
     }
 
-    /* Throws */
+    /* Throws */ //VVIMP// If we use throw than also we have to use Throws to inform the method caller
     public static void method1() throws FileNotFoundException { // It means informing caller method that this method
         // could throw exception FileNotFoundException so handle it in caller method
         FileReader fileReader = new FileReader("a.txt");
