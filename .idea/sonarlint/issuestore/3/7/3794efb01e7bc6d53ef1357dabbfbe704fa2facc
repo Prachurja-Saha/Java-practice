@@ -1,0 +1,29 @@
+
+c
+java:S1854"ARemove this useless assignment to local variable "checkNameSize".(ù·Íáüÿÿÿÿ8Á·ñ“¦2
+t
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(«Û¹ëþÿÿÿÿ8Â·ñ“¦2
+Q
+java:S1611"/Remove the parentheses around the "x" parameter(«Û¹ëþÿÿÿÿ8Â·ñ“¦2
+G	java:S106"+Replace this use of System.out by a logger.(±¤Šé8Ã·ñ“¦2
+]	java:S125"<This block of commented-out lines of code should be removed.(«Û¹ëþÿÿÿÿ8Ã·ñ“¦2
+G	java:S106"+Replace this use of System.out by a logger.(×ôëö8Ã·ñ“¦2
+Q
+java:S1611"/Remove the parentheses around the "x" parameter(¤ ÊÃýÿÿÿÿ8Ä·ñ“¦2
+t
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(‹Û¿Áÿÿÿÿÿ8Ä·ñ“¦2
+Q
+java:S1611"/Remove the parentheses around the "x" parameter(‹Û¿Áÿÿÿÿÿ8Ä·ñ“¦2
+Q
+java:S1611"/Remove the parentheses around the "s" parameter(ù·Íáüÿÿÿÿ8Ä·ñ“¦2
+T
+java:S1481"2Remove this unused "checkNameSize" local variable.(ù·Íáüÿÿÿÿ8Ä·ñ“¦2
+o
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(À†­¾8Å·ñ“¦2
+t
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(¨åô­ýÿÿÿÿ8Å·ñ“¦2
+L	java:S106"+Replace this use of System.out by a logger.(¬úŽ¿ùÿÿÿÿ8Å·ñ“¦2
+G	java:S106"+Replace this use of System.out by a logger.(“Ö¬Î8Å·ñ“¦2
+G	java:S106"+Replace this use of System.out by a logger.(¶þüø8Å·ñ“¦2
+G	java:S106 "+Replace this use of System.out by a logger.(ÎêÝú8Æ·ñ“¦2
+F	java:S106!"+Replace this use of System.out by a logger.(´ÒÅF8Æ·ñ“¦2

@@ -1,0 +1,22 @@
+
+m
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8Ø¦É¥2
+r
+java:S1104"PMake roll a static final constant or non-public and provide accessors if needed.(ªŸŠ¬şÿÿÿÿ8Ù¦É¥2
+q
+java:S1104"OMake dob a static final constant or non-public and provide accessors if needed.(«§ê±úÿÿÿÿ8Ù¦É¥2
+R
+java:S1611$"0Remove the parentheses around the "o1" parameter(‰–½Óşÿÿÿÿ8ó¦É¥2
+i
+java:S1871)"LThis branch's code block is the same as the block for the branch on line 38.(×ï¸¸8ó¦É¥2
+c
+java:S6201&"FReplace this instanceof check and cast with 'instanceof String string'(”éıŸ8ô¦É¥2
+G	java:S106?"+Replace this use of System.out by a logger.(¹¡ô“8ü¦É¥2
+G	java:S106B"+Replace this use of System.out by a logger.(Ï¥õ8ı¦É¥2
+t
+java:S4276H"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ÌòıÂùÿÿÿÿ8ı¦É¥2
+G	java:S106K"+Replace this use of System.out by a logger.(ÌĞä8ş¦É¥2
+G	java:S106O"+Replace this use of System.out by a logger.(Âæ“ú8ş¦É¥2
+]	java:S125T"<This block of commented-out lines of code should be removed.(Û¨†úÿÿÿÿ8ÂÒÉ¥2
+]	java:S125V"<This block of commented-out lines of code should be removed.(ï³şÆûÿÿÿÿ8ÿ¦É¥2
+X	java:S125X"<This block of commented-out lines of code should be removed.(¯³ã«8ÿ¦É¥2

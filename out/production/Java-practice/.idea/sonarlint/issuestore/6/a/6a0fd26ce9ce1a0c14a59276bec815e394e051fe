@@ -1,0 +1,11 @@
+
+_
+java:S2094
+"BRemove this empty class, write its code or make it an "interface".( £â°8ø”Úª¨2
+8
+java:S2326
+"T is not used in the class.( £â°8ù”Úª¨2
+[
+java:S1854.">Remove this useless assignment to local variable "myClassBox".(ê‚ï†8ý”Úª¨2
+L
+java:S1481."/Remove this unused "myClassBox" local variable.(ê‚ï†8ý”Úª¨2

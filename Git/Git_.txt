@@ -1,0 +1,47 @@
+0) Git Version check command -> Git --version
+
+1) How To check/update UserName
+
+# Check Global UserName
+  Checking Git username: git config --global user.name
+  Checking Git email: git config user.email
+
+# Check Local
+  git config user.name
+
+# If you want to change your username globally (for all repositories):
+  git config --global user.name "YourPersonalUsername"
+
+# If you want to change it just for the current project,
+  you can set it locally (this won't affect other repositories):
+  git config user.name "YourPersonalUsername"
+
+
+2) How to initialize git -> file .git
+
+ step 1 -> go to project path command -> cd path/to/your/project
+ step 2 -> initialize git command -> git init
+
+3) Add GitHub Repository as remote
+
+  step 1 -> Create a git repository in GitHub -> copy Url
+
+             Add the Remote URL to Your Local Project
+  step 2 ->  git remote add origin https://github.com/your-username/your-repo-name.git
+             https://github.com/antu6183/Spring-Basic.git
+
+
+4) Stage All Files
+   Stage all the files in your project directory to be committed:
+   git add .
+
+
+Generate Personal access token(PAT) and give access to repo
+Generate PAT: Settings-> developers setting -> PAT
+
+After that:
+Git Command: git remote set-url origin https://<your-username>:<new-token>@github.com/antu6183/Java-practice.git
+Repo path -> antu6183/Java-practice.git(not sure)
+
+Commit ->
+Push ->  git push origin feature/7182024/java-basic

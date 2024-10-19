@@ -1,0 +1,16 @@
+
+r	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë“€Ãüÿÿÿÿ8Ùêç¨2
+L	java:S106"+Replace this use of System.out by a logger.(âÓ¥¥şÿÿÿÿ8äêç¨2
+G	java:S106"+Replace this use of System.out by a logger.(ÆÀûı8æêç¨2
+L	java:S106."+Replace this use of System.out by a logger.(­“œÿÿÿÿÿ8ìêç¨2
+L	java:S1060"+Replace this use of System.out by a logger.(Åç†‚şÿÿÿÿ8íêç¨2
+G	java:S1065"+Replace this use of System.out by a logger.(·ËÏÔ8íêç¨2
+L	java:S1066"+Replace this use of System.out by a logger.(Œà¶ÿÿÿÿÿ8îêç¨2
+L	java:S106C"+Replace this use of System.out by a logger.(ñî–Šúÿÿÿÿ8òêç¨2
+G	java:S106O"+Replace this use of System.out by a logger.(¢—ß„8ôêç¨2
+L	java:S106T"+Replace this use of System.out by a logger.(âß¤üÿÿÿÿÿ8õêç¨2
+]	java:S125["<This block of commented-out lines of code should be removed.(®Áàúÿÿÿÿ8÷êç¨2
+]	java:S125h"<This block of commented-out lines of code should be removed.(Ë“€Ãüÿÿÿÿ8úêç¨2
+L	java:S106m"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8ûêç¨2
+M
+java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º8ƒêè¨2

@@ -1,0 +1,16 @@
+
+L
+java:S3740V"/Provide the parametrized type for this generic.(ÊûäÍ8ÄÊ®›¥2
+a
+java:S1854;"?Remove this useless assignment to local variable "integerList".(ö¼Ê¼úÿÿÿÿ8ÓÊ®›¥2
+W
+java:S1854"5Remove this useless assignment to local variable "c".(¸ÎÂ¤ıÿÿÿÿ8ÓÊ®›¥2
+H
+java:S1481"&Remove this unused "c" local variable.(¸ÎÂ¤ıÿÿÿÿ8ÕÊ®›¥2
+L	java:S106#"+Replace this use of System.out by a logger.(Ïø÷¿üÿÿÿÿ8ÖÊ®›¥2
+G	java:S1065"+Replace this use of System.out by a logger.( Ñ‹8ÚÊ®›¥2
+G	java:S1068"+Replace this use of System.out by a logger.(ºù²ô8ÚÊ®›¥2
+R
+java:S1481;"0Remove this unused "integerList" local variable.(ö¼Ê¼úÿÿÿÿ8ÜÊ®›¥2
+]	java:S125I"<This block of commented-out lines of code should be removed.(çÔÆˆÿÿÿÿÿ8İÊ®›¥2
+L	java:S106X"+Replace this use of System.out by a logger.(×¿İÆıÿÿÿÿ8ßÊ®›¥2

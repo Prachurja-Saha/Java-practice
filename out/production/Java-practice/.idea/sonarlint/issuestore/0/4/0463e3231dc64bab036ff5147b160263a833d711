@@ -1,0 +1,9 @@
+
+\
+java:S1854A":Remove this useless assignment to local variable "class3".(îœäíùÿÿÿÿ8ÓÓ›´ 2
+L	java:S106("+Replace this use of System.out by a logger.(ëÊĞüÿÿÿÿÿ8ØÓ›´ 2
+L	java:S106+"+Replace this use of System.out by a logger.(æ¨¤šøÿÿÿÿ8ÙÓ›´ 2
+M
+java:S1481A"+Remove this unused "class3" local variable.(îœäíùÿÿÿÿ8ÜÓ›´ 2
+G	java:S106G"+Replace this use of System.out by a logger.(åÖ„¥8İÓ›´ 2
+L	java:S106L"+Replace this use of System.out by a logger.(÷ ¼ğşÿÿÿÿ8ßÓ›´ 2

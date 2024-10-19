@@ -1,0 +1,32 @@
+
+r
+java:S3655Z"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(è¯×åûÿÿÿÿ8¬é’¨¨2
+G	java:S106"+Replace this use of System.out by a logger.(…ÄæØ8´é’¨¨2
+L	java:S106"+Replace this use of System.out by a logger.(Î›úÊüÿÿÿÿ8µé’¨¨2
+L	java:S106#"+Replace this use of System.out by a logger.(ˆ‚ºÊøÿÿÿÿ8µé’¨¨2
+L	java:S106'"+Replace this use of System.out by a logger.(Í´Æ™úÿÿÿÿ8¶é’¨¨2
+L
+java:S1197*"*Move the array designators [] to the type.(óçÙúúÿÿÿÿ8·é’¨¨2
+F	java:S106,"+Replace this use of System.out by a logger.(âÚÄ8·é’¨¨2
+L	java:S106C"+Replace this use of System.out by a logger.(£¯•ÿÿÿÿÿ8¸é’¨¨2
+=
+java:S3864M"!Remove this use of "Stream.peek".(Ÿï¥%8¸é’¨¨2
+F	java:S106M"+Replace this use of System.out by a logger.(Ÿï¥%8¹é’¨¨2
+L	java:S106O"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8¹é’¨¨2
+X	java:S125P"<This block of commented-out lines of code should be removed.(Øÿï¡8ºé’¨¨2
+C
+java:S3864]"!Remove this use of "Stream.peek".(³£²¶ÿÿÿÿÿ8»é’¨¨2
+L	java:S106]"+Replace this use of System.out by a logger.(³£²¶ÿÿÿÿÿ8½é’¨¨2
+G	java:S106a"+Replace this use of System.out by a logger.(±ŒóÁ8¾é’¨¨2
+]	java:S125k"<This block of commented-out lines of code should be removed.(¹¦…‡úÿÿÿÿ8¾é’¨¨2
+R
+java:S1611‹"/Remove the parentheses around the "x" parameter(„Çİşÿÿÿÿ8¾é’¨¨2
+M	java:S106—"+Replace this use of System.out by a logger.(¸ıÚ›ıÿÿÿÿ8¿é’¨¨2
+H	java:S106˜"+Replace this use of System.out by a logger.(şõ‘›8¿é’¨¨2
+H	java:S106§"+Replace this use of System.out by a logger.(ãæá´8Àé’¨¨2
+p
+java:S6204¯"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ŞùÊ 8Áé’¨¨2
+p
+java:S6204®"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(—·ê8Áé’¨¨2
+M	java:S106±"+Replace this use of System.out by a logger.(‰©Èˆıÿÿÿÿ8Âé’¨¨2
+H	java:S106¾"+Replace this use of System.out by a logger.(Ù©È±8Ãé’¨¨2

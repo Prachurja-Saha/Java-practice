@@ -47,6 +47,7 @@ public class ArrayDequeTest {
         newDeque.add(1);
         newDeque.add(2);
         newDeque.add(3);
+        System.out.println("First element (Does not remove)"+newDeque.getFirst() + "Last element (Does not remove)"  + newDeque.getLast()) ;
 
         // Traversing backwards
         Iterator<Integer> iterator = newDeque.descendingIterator();

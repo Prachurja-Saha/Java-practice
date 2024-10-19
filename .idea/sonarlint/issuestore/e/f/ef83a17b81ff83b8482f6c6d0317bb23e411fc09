@@ -1,0 +1,8 @@
+
+d
+java:S1854"GRemove this useless assignment to local variable "functionalInterface".(«όπ²8Ϋί‹¨Ά2
+C
+java:S1481"&Remove this unused "b" local variable.(§υ΄8¨Ρ‘¨Ά2
+L	java:S106"+Replace this use of System.out by a logger.(ζ¨¤ψÿÿÿÿ8Òέ¨Ά2
+U
+java:S1481"8Remove this unused "functionalInterface" local variable.(«όπ²8Òέ¨Ά2

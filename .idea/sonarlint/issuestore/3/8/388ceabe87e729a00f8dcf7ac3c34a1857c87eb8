@@ -1,0 +1,10 @@
+
+N
+java:S1854"8Remove this useless assignment to local variable "num2".(…Óºù
+M
+java:S1854"8Remove this useless assignment to local variable "num2".(”šÓ7
+3
+java:S2153"Remove the unboxing of "num1".(”šÓ7
+>
+java:S1481")Remove this unused "num2" local variable.(”šÓ7
+@	java:S106"+Replace this use of System.out by a logger.(à¾‚Š

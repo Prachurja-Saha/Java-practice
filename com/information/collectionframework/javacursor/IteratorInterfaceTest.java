@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * Uni-Directional Iterator. -> forward direction only
+ * HashMap in Java does not maintain any specific order of its entries
  * Enumeration -> legacy interface not required iterator is better in every way
  * ListIterator
  * Like Pointer

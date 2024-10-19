@@ -1,0 +1,8 @@
+
+[
+java:S18545">Remove this useless assignment to local variable "emailRegex".(÷‚ŞŸ8²–«‰©2
+G	java:S106,"+Replace this use of System.out by a logger.(–œ˜Â8£òˆ‰©2
+L	java:S106-"+Replace this use of System.out by a logger.(‰Îúÿÿÿÿ8¤òˆ‰©2
+L	java:S1062"+Replace this use of System.out by a logger.(™ãÁûÿÿÿÿ8§òˆ‰©2
+L
+java:S14815"/Remove this unused "emailRegex" local variable.(÷‚ŞŸ8¾–«‰©2

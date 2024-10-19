@@ -2,7 +2,7 @@ package com.information.generic;
 
 enum Operation {
 
-    SUBTRACTION, ADDITION, MULTIPLICATION;
+    SUBTRACTION, ADDITION, MULTIPLICATION; // 3 instances of Operation
 
     public <P extends Number, Q extends Number> double apply(P a, Q b) {
 

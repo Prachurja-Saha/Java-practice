@@ -1,0 +1,19 @@
+
+>
+java:S1643L"Use a StringBuilder instead.(Ï·ùúÿÿÿÿ8ØÂÅí¥2
+9
+java:S1643N"Use a StringBuilder instead.(ÌÊîÂ8ÚÂÅí¥2
+9
+java:S1643P"Use a StringBuilder instead.(îÀİš8ÚÂÅí¥2
+y
+java:S1488;"\Immediately return this expression instead of assigning it to the temporary variable "list".(ÖŒìÇ8ÜÂÅí¥2
+L	java:S1065"+Replace this use of System.out by a logger.(«‹Âøÿÿÿÿ8‰ĞÅí¥2
+F	java:S1067"+Replace this use of System.out by a logger.(®”„u8ŠĞÅí¥2
+8
+java:S3626I"Remove this redundant jump.(ÉŠ©ƒ8ĞÅí¥2
+g
+java:S1124]"EReorder the modifiers to comply with the Java Language Specification.(›ÆÔ€ÿÿÿÿÿ8£ĞÅí¥2
+b
+java:S1124^"EReorder the modifiers to comply with the Java Language Specification.(½š«ô8«ĞÅí¥2
+L	java:S106l"+Replace this use of System.out by a logger.(’‹úÿÿÿÿ8±ĞÅí¥2
+L	java:S106o"+Replace this use of System.out by a logger.(ä£ŠÕüÿÿÿÿ8²ĞÅí¥2
