@@ -1,0 +1,10 @@
+
+@	java:S106"+Replace this use of System.out by a logger.(ÂðÇî
+@	java:S106"+Replace this use of System.out by a logger.(“²Ã²
+Z
+java:S1854"?Remove this useless assignment to local variable "integerList".(µ¢‹‚þÿÿÿÿ
+K
+java:S1481"0Remove this unused "integerList" local variable.(µ¢‹‚þÿÿÿÿ
+D
+java:S1144
+".Remove this unused private "printList" method.(ÀÊ‰Ç

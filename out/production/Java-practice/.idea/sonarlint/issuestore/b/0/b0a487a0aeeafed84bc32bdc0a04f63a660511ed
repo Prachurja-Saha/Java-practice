@@ -1,0 +1,9 @@
+
+w
+java:S1104"UMake typeOfDog a static final constant or non-public and provide accessors if needed.(â”Ñ§øÿÿÿÿ8­³Î³ 2
+>
+java:S1170
+"!Make this final field static too.( Ã¢×8ìÿž³ 2
+D
+java:S1068
+"'Remove this unused "leg" private field.( Ã¢×8ðÿž³ 2

@@ -1,0 +1,20 @@
+
+X	java:S125
+"<This block of commented-out lines of code should be removed.(Üê—«8óñø–¦2
+X	java:S125"<This block of commented-out lines of code should be removed.(ë›¼á8óñø–¦2
+s
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(ôŒ±¹úÿÿÿÿ8ôñø–¦2
+Q
+java:S1611"/Remove the parentheses around the "x" parameter(ôŒ±¹úÿÿÿÿ8ôñø–¦2
+b
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(ôŒ±¹úÿÿÿÿ8ôñø–¦2
+L	java:S106"+Replace this use of System.out by a logger.(ôŒ±¹úÿÿÿÿ8õñø–¦2
+L
+java:S1611"/Remove the parentheses around the "y" parameter(ÖòÆ8öñø–¦2
+G	java:S106"+Replace this use of System.out by a logger.(ÖòÆ8öñø–¦2
+M
+java:S1611"0Remove the parentheses around the "li" parameter(œ„–Ù8öñø–¦2
+L	java:S106"+Replace this use of System.out by a logger.(µÏ…èùÿÿÿÿ8öñø–¦2
+s
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntSupplier'(³ÒæÏşÿÿÿÿ8øñø–¦2
+X	java:S125 "<This block of commented-out lines of code should be removed.(ıïâ¿8ùñø–¦2

@@ -1,0 +1,7 @@
+
+Y
+java:S2589"7Remove this expression which always evaluates to "true"(Š¢úÿÿÿÿ8ûºä¨2
+]	java:S125"<This block of commented-out lines of code should be removed.(èÛ›şûÿÿÿÿ8»ä¨2
+T
+java:S1172"8Remove these unused method parameters "name", "ordinal".(æ‹ÑG8ƒ»ä¨2
+L	java:S106"+Replace this use of System.out by a logger.(Š¢úÿÿÿÿ8„»ä¨2

@@ -1,0 +1,11 @@
+
+L	java:S106E"+Replace this use of System.out by a logger.(Ώ”ΔΙωÿÿÿÿ8εχ¶δ§2
+X	java:S125"<This block of commented-out lines of code should be removed.(ι€βξ8ηχ¶δ§2
+X	java:S125"<This block of commented-out lines of code should be removed.(£µª¤8ηχ¶δ§2
+X	java:S125("<This block of commented-out lines of code should be removed.(Ψδ‘³8ηχ¶δ§2
+X	java:S125:"<This block of commented-out lines of code should be removed.(χά”8ηχ¶δ§2
+]	java:S125>"<This block of commented-out lines of code should be removed.(§ΖάΆÿÿÿÿÿ8ηχ¶δ§2
+Y
+java:S1128"7Remove this unused import 'java.util.stream.IntStream'.(ΩΙ½ωÿÿÿÿ8ιχ¶δ§2
+Q
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(σχ”8ιχ¶δ§2

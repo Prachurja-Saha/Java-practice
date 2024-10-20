@@ -1,0 +1,18 @@
+
+]
+java:S1192"GDefine a constant instead of duplicating this literal "Deepak" 3 times.(Ï‹ˆô
+W
+java:S4973"<Strings and Boxed types should be compared using "equals()".(¶Ãâ¹ùÿÿÿÿ
+u
+java:S1149*"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Üïß
+W
+java:S18541"ARemove this useless assignment to local variable "stringBuilder".(ÐÜˆ
+6
+java:S2129" Remove this "String" constructor(Ï‹ˆô
+6
+java:S2129" Remove this "String" constructor(…¦‰Ž
+E	java:S106"+Replace this use of System.out by a logger.(Ôˆÿ‡ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(»Êƒ¸ûÿÿÿÿ
+?	java:S106#"+Replace this use of System.out by a logger.(ŒË¨b
+H
+java:S14811"2Remove this unused "stringBuilder" local variable.(ÐÜˆ

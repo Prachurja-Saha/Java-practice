@@ -1,0 +1,36 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(µÏ…èùÿÿÿÿ8Çİù§2
+_
+java:S1854Z"CRemove this useless assignment to local variable "stringToLength1".(ˆòš88Å¥ÆÚ§2
+b
+java:S1854W"@Remove this useless assignment to local variable "listSupplier".(º¥¤µøÿÿÿÿ8ÙÅÅÚ§2
+b
+java:S1854H"@Remove this useless assignment to local variable "stringLength".(ÍôËøÿÿÿÿÿ8°ŒœÚ§2
+T
+java:S1854D"8Remove this useless assignment to local variable "sqrt".(¸Ş¬h8Ì“øÙ§2
+b
+java:S1612 "@Replace this lambda with method reference 'System.out::println'.(Æ¸¾êÿÿÿÿÿ8Íİù§2
+L	java:S106 "+Replace this use of System.out by a logger.(Æ¸¾êÿÿÿÿÿ8Îİù§2
+L	java:S106%"+Replace this use of System.out by a logger.(ÙüúĞüÿÿÿÿ8Ïİù§2
+G	java:S106'"+Replace this use of System.out by a logger.(»Òóœ8Ğİù§2
+]	java:S125&"<This block of commented-out lines of code should be removed.(ÑÆûıÿÿÿÿ8Ğİù§2
+G	java:S106/"+Replace this use of System.out by a logger.(÷†—û8šËú§2
+L	java:S1062"+Replace this use of System.out by a logger.(òÚúÿÿÿÿ8×ßı§2
+u
+java:S4276D"YRefactor this code to use the more specialised Functional Interface 'IntToDoubleFunction'(¸Ş¬h8Ò“øÙ§2
+E
+java:S1481D")Remove this unused "sqrt" local variable.(¸Ş¬h8Ò“øÙ§2
+s
+java:S4276H"QRefactor this code to use the more specialised Functional Interface 'IntSupplier'(ÍôËøÿÿÿÿÿ8¼êœÚ§2
+S
+java:S1481H"1Remove this unused "stringLength" local variable.(ÍôËøÿÿÿÿÿ8²Ú§2
+S
+java:S1481W"1Remove this unused "listSupplier" local variable.(º¥¤µøÿÿÿÿ8ãÅÅÚ§2
+w
+java:S4276Z"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(ˆòš88Í¥ÆÚ§2
+]
+java:S1612Z"AReplace this lambda with method reference 'CharSequence::length'.(ˆòš88×ÅÇÚ§2
+P
+java:S1481Z"4Remove this unused "stringToLength1" local variable.(ˆòš88„‰ÇÚ§2
+x
+java:S4276]"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(ŞşØ‡8Ï¥ÆÚ§2

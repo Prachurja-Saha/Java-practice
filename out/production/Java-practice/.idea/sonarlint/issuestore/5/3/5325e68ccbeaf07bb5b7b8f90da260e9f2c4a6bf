@@ -1,0 +1,14 @@
+
+]
+java:S1854F";Remove this useless assignment to local variable "treeSet".(ãÕ³üüÿÿÿÿ8§ÐÀ›¦2
+T
+java:S1854D"7Remove this useless assignment to local variable "set".(öåºâ8¨ÐÀ›¦2
+L	java:S106"+Replace this use of System.out by a logger.(¨’Æ¸üÿÿÿÿ8ªÐÀ›¦2
+]	java:S125"<This block of commented-out lines of code should be removed.(ä•šÖùÿÿÿÿ8ªÐÀ›¦2
+L	java:S106@"+Replace this use of System.out by a logger.(ã¿¢Ôùÿÿÿÿ8«ÐÀ›¦2
+E
+java:S1481D"(Remove this unused "set" local variable.(öåºâ8¬ÐÀ›¦2
+d
+java:S1612F"BReplace this lambda with method reference 'Comparable::compareTo'.(ãÕ³üüÿÿÿÿ8­ÐÀ›¦2
+N
+java:S1481F",Remove this unused "treeSet" local variable.(ãÕ³üüÿÿÿÿ8­ÐÀ›¦2

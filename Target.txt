@@ -1,0 +1,52 @@
+My Goal
+
+Learning all from [Java T point]
+
+A)
+-> OOPS concepts
+   1. Inheritance
+   2. Polymorphism
+   3. Abstraction
+   4. Encapsulation, Access modifier
+   5. Object, Class, Real meaning of Object-Oriented and Procedure-Oriented programming // later
+   6. Java OOPs Misc // later
+
+B)
+-> More About Java
+   1) Types of variables, (static, finally, final, [synchronized, transient, volatile]-> later, enum) keyword
+   2) JDK, JRE, JVM  -- Memory Allocation// later
+   3) Wrapper class, Math class // later
+   4) String, StringBuffer, String Builder, (String inside Main class, String[] args, Array) // later
+
+After B -> Apply for Jobs
+
+C)
+-> **** Collections
+   1) All Java Collections
+   Later -> Covariant, Contravariance, Invariance
+   ***********************
+   2) JAVA 8 -> Lamda Stream, InputStream, condition using ?
+   ************************
+   3) Comparable, Comparator
+   4) Call by value, Call by reference
+   5) DSA/ algorithm
+
+D)
+-> Core
+   1) Exception Handling
+   2) Multithreading
+   3) Inner Class
+   4) Algorithm
+   5) Java Serialization
+   6) Generic, Builder, Predicate
+
+E)
+-> Practice Coding
+  1) Learn few algorithm not all
+  1) Practice Java Code
+  1) Solid principal
+
+--------------------------------------------
+
+Pranav-> docker, quebernetics, **java8, 9 10 difference, azure, apache camel , **algorithm-> sliding window, bruteforce
+ kafka , eventhub,

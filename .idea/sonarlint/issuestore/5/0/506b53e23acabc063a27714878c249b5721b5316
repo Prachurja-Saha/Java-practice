@@ -1,0 +1,22 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Ã™ÄÏ8ï¢±‰¨2
+L	java:S106"+Replace this use of System.out by a logger.(õÍ“ƒýÿÿÿÿ8Èí½ó£2
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ùÀÒÆúÿÿÿÿ8É©¾ó£2
+G	java:S106"+Replace this use of System.out by a logger.(öõõ²8Ëí½ó£2
+G	java:S106"+Replace this use of System.out by a logger.(ãºû«8²ýª‰¨2
+L	java:S106"+Replace this use of System.out by a logger.(ƒèã÷ýÿÿÿÿ8÷¢±‰¨2
+R
+java:S18544"5Remove this useless assignment to local variable "a".(õ‡žÐ8ÀÀ³‰¨2
+\
+java:S1854*"?Remove this useless assignment to local variable "innerClass1".(áµöÍ8Ìí½ó£2
+`
+java:S1854&">Remove this useless assignment to local variable "innerClass".(û›¯“üÿÿÿÿ8Ìí½ó£2
+X	java:S125 "<This block of commented-out lines of code should be removed.(€•«¹8Íí½ó£2
+Q
+java:S1481&"/Remove this unused "innerClass" local variable.(û›¯“üÿÿÿÿ8Ïí½ó£2
+M
+java:S1481*"0Remove this unused "innerClass1" local variable.(áµöÍ8Ñí½ó£2
+C
+java:S14814"&Remove this unused "a" local variable.(õ‡žÐ8ÄÀ³‰¨2

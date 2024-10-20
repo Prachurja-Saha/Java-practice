@@ -1,0 +1,8 @@
+
+u	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ìğ†Î8ïÀˆ¤¤2
+X
+java:S1854"6Remove this useless assignment to local variable "a2".(İ×Ä´ÿÿÿÿÿ8şÀˆ¤¤2
+L	java:S106"+Replace this use of System.out by a logger.(éùœŸıÿÿÿÿ8€Áˆ¤¤2
+G	java:S106"+Replace this use of System.out by a logger.(ÍˆëÄ8Áˆ¤¤2
+c
+java:S6201"FReplace this instanceof check and cast with 'instanceof String string'(®©éà8Áˆ¤¤2

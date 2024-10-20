@@ -1,0 +1,22 @@
+
+[
+java:S18545">Remove this useless assignment to local variable "parsedTime".(ø¨‡Ù8¸®·¥¨2
+`
+java:S18542">Remove this useless assignment to local variable "customTime".(¬ÉÓ¶úÿÿÿÿ8¹®·¥¨2
+]
+java:S18541";Remove this useless assignment to local variable "nowTime".(¹±˜éşÿÿÿÿ8¹®·¥¨2
+L	java:S106"+Replace this use of System.out by a logger.(Ùğóşÿÿÿÿ8¼®·¥¨2
+G	java:S106"+Replace this use of System.out by a logger.(ˆß²°8½®·¥¨2
+L	java:S106"+Replace this use of System.out by a logger.(¹­”±øÿÿÿÿ8¾®·¥¨2
+G	java:S106""+Replace this use of System.out by a logger.(àŒíø8Â®·¥¨2
+G	java:S106&"+Replace this use of System.out by a logger.(ı½µ8Ã®·¥¨2
+G	java:S106-"+Replace this use of System.out by a logger.(ŒÉÓö8Æ®·¥¨2
+L	java:S106."+Replace this use of System.out by a logger.(èû”şÿÿÿÿ8Æ®·¥¨2
+N
+java:S14811",Remove this unused "nowTime" local variable.(¹±˜éşÿÿÿÿ8Ç®·¥¨2
+Q
+java:S14812"/Remove this unused "customTime" local variable.(¬ÉÓ¶úÿÿÿÿ8È®·¥¨2
+L
+java:S14815"/Remove this unused "parsedTime" local variable.(ø¨‡Ù8Ê®·¥¨2
+L	java:S106:"+Replace this use of System.out by a logger.(µüôİûÿÿÿÿ8Ë®·¥¨2
+L	java:S106="+Replace this use of System.out by a logger.(Ç¹½¾úÿÿÿÿ8Ì®·¥¨2

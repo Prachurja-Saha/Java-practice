@@ -1,0 +1,18 @@
+
+Y
+java:S3518""7Make sure "b" can't be zero before doing this division.(˜ÿ¤ûÿÿÿÿ8ë¤¤³¨2
+`
+java:S3518"CMake sure this expression can't be zero before doing this division.(å›ßŠ8ê¤¤³¨2
+j
+java:S2095N"HUse try-with-resources or close this "FileReader" in a "finally" clause.(¾ÿëÖûÿÿÿÿ8ë¤¤³¨2
+G	java:S106"+Replace this use of System.out by a logger.(å›ßŠ8ğ¤¤³¨2
+L	java:S106""+Replace this use of System.out by a logger.(˜ÿ¤ûÿÿÿÿ8ò¤¤³¨2
+G	java:S106%"+Replace this use of System.out by a logger.(ÙŒ®8ò¤¤³¨2
+L	java:S106'"+Replace this use of System.out by a logger.(É™ø¿ıÿÿÿÿ8ó¤¤³¨2
+L	java:S1061"+Replace this use of System.out by a logger.(®˜Ççùÿÿÿÿ8õ¤¤³¨2
+]	java:S125>"<This block of commented-out lines of code should be removed.(Ì‹ıÔıÿÿÿÿ8õ¤¤³¨2
+L	java:S106B"+Replace this use of System.out by a logger.(ªˆØÍùÿÿÿÿ8ö¤¤³¨2
+`
+java:S1854N">Remove this useless assignment to local variable "fileReader".(¾ÿëÖûÿÿÿÿ8ö¤¤³¨2
+Q
+java:S1481N"/Remove this unused "fileReader" local variable.(¾ÿëÖûÿÿÿÿ8ø¤¤³¨2

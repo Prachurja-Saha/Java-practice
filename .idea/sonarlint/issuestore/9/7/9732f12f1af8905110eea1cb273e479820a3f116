@@ -1,0 +1,15 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(¢£á³8Œ…¿Ù§2
+G	java:S106"+Replace this use of System.out by a logger.(÷î‹8…¿Ù§2
+L	java:S106#"+Replace this use of System.out by a logger.(ŸƒÖÀûÿÿÿÿ8’…¿Ù§2
+X	java:S125%"<This block of commented-out lines of code should be removed.(üÃº¼8’…¿Ù§2
+L	java:S106'"+Replace this use of System.out by a logger.(æ¯ø×ùÿÿÿÿ8“…¿Ù§2
+d
+java:S1612)"BReplace this lambda with method reference 'Comparable::compareTo'.(«´ß’øÿÿÿÿ8•…¿Ù§2
+G	java:S106*"+Replace this use of System.out by a logger.(ß²Ò­8–…¿Ù§2
+G	java:S1066"+Replace this use of System.out by a logger.(À¯¿8˜…¿Ù§2
+X	java:S1257"<This block of commented-out lines of code should be removed.(´ĞÁÇ8™…¿Ù§2
+O
+java:S11358"2Complete the task associated to this TODO comment.(¡ÀÖ¼8™…¿Ù§2
+‚
+java:S1128"`Remove this unused import 'com.information.java8.functionalinterface.comparator.ComparatorTest'.(ãØß˜şÿÿÿÿ8„¨ˆ¨2

@@ -1,0 +1,25 @@
+
+Y
+java:S2589:"7Remove this expression which always evaluates to "true"(—¨ıÿÿÿÿ8§×Õ§¨2
+a
+java:S2583#"DChange this condition so that it does not always evaluate to "false"(¾€ŸÏ8¨×Õ§¨2
+F	java:S106"+Replace this use of System.out by a logger.(ÈŞ³X8¤ğÔ§¨2
+G	java:S106"+Replace this use of System.out by a logger.(¾ò‰ 8¦ğÔ§¨2
+L	java:S106$"+Replace this use of System.out by a logger.(‰œ¼ãşÿÿÿÿ8¦ğÔ§¨2
+G	java:S106("+Replace this use of System.out by a logger.(Ä—ëÖ8§ğÔ§¨2
+L	java:S106+"+Replace this use of System.out by a logger.(°ûŸ÷úÿÿÿÿ8§ğÔ§¨2
+L	java:S1060"+Replace this use of System.out by a logger.(…õ½éüÿÿÿÿ8¨ğÔ§¨2
+j
+java:S16120"HReplace this lambda with method reference 'NoSuchElementException::new'.(…õ½éüÿÿÿÿ8¨ğÔ§¨2
+L	java:S1061"+Replace this use of System.out by a logger.(¿Äßüÿÿÿÿ8©ğÔ§¨2
+L	java:S1065"+Replace this use of System.out by a logger.(¸•Æÿüÿÿÿÿ8ªğÔ§¨2
+L	java:S106;"+Replace this use of System.out by a logger.(¥¤©×ıÿÿÿÿ8«ğÔ§¨2
+L	java:S106?"+Replace this use of System.out by a logger.(ùø¥µşÿÿÿÿ8«ğÔ§¨2
+X	java:S125C"<This block of commented-out lines of code should be removed.(†òæå8«ğÔ§¨2
+L	java:S106F"+Replace this use of System.out by a logger.(Ø»ã¬ıÿÿÿÿ8¬ğÔ§¨2
+b
+java:S1612J"@Replace this lambda with method reference 'String::toUpperCase'.(×®’Éøÿÿÿÿ8±ğÔ§¨2
+L	java:S106J"+Replace this use of System.out by a logger.(×®’Éøÿÿÿÿ8¶×Õ§¨2
+]
+java:S1612M"@Replace this lambda with method reference 'String::toUpperCase'.(ïÇÒˆ8¡­Ø§¨2
+G	java:S106M"+Replace this use of System.out by a logger.(ïÇÒˆ8¡­Ø§¨2
