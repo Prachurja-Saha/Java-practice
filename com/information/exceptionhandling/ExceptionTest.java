@@ -4,11 +4,17 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Arrays;
 
+/**
+ * Java Exception handling framework is used to handle runtime errors only. keywords: throw,throws,try-catch
+ * The compile-time errors have to be fixed by the developer writing the code else the program won’t execute.
+ */
 public class ExceptionTest {
 
     /*
          Important Point : Whenever there is an exception in any method it will transfer the exception to caller
-    *    Method and if we dont handle that exception then it will reach to main method from there JVM will handle
+                           if no appropriate handler is found. We can write custom exception handler to handle
+                           the exception otherwise it will transfer the exception to caller method.
+    *    Method and if we don't handle that exception then it will reach to main method from there JVM will handle
     *    that exception
     */
 

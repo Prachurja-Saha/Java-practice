@@ -13,7 +13,7 @@ public class ReadingAndWritingFiles {
 
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("saha.txt"));
             // It will create a new File name saha.txt in project file location if not present
-            // If i want any specific location than i have to provide full path with double \\
+            // If i want any specific location than i have to provide full path with double-> \\
             // i.e -> C:\\Users\\PS75215\\AppData\\Local\\saha.txt
 
             bufferedWriter.write("Hi Everyone");
