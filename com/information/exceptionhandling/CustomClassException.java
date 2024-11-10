@@ -17,6 +17,7 @@ public class CustomClassException extends RuntimeException{
     }
 
     public static void main(String[] args) throws CustomClassException {
-        throw new CustomClassException("Custom Exception", "Error_Code-2000");
+        CustomClassException customClassException = new CustomClassException("Custom Exception", "Error_Code-2000");
+        throw customClassException;
     }
 }

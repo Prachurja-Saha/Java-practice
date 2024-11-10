@@ -14,6 +14,7 @@ public class FindDuplicate {
         List<Integer> integerList = List.of(1, 2, 1, 2, 3, 4, 4, 5, 0, 10, 0, 1, 3, 11);
         Set<Integer> integerSet = new HashSet<>();
 
+
         // Ans
         System.out.println(integerList.stream()
                 .filter(i -> !integerSet.add(i))
