@@ -4,7 +4,7 @@ public class CastingTest {
     public static void main(String[] args) {
 
         Object obj = "Amit";
-        String a = (String) obj;
+        String a = (String) obj; // type casting
 
         Object obj2 = 1;
         Integer b = (Integer)obj2;

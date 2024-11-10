@@ -8,8 +8,8 @@ public class WrapperClassTest {
 //        Integer num1 = new Integer(num); // -> Deprecated -> called Boxing
         Integer num1 = num; // AutoBoxing (changing primitive -> wrapper)
 
-        Integer num2 = num1.intValue(); // Unboxing
-        num2 = num1; //AutoUnboxing (changing wrapper to primitive)
+        int num2 = num1.intValue(); // Unboxing
+        int num3 = num1; //AutoUnboxing (changing wrapper to primitive)
 
         String s1 = "12";
         int x = Integer.parseInt(s1);

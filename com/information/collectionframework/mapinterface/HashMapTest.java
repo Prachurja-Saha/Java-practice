@@ -144,6 +144,7 @@ public class HashMapTest {
                         LinkedHashMap::new
                 ));
 
+
         System.out.println("sorted map :" + sortedLinkedHashMap);
 
         // It is not collection so only one value can be added

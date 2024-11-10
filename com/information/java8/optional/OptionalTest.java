@@ -19,7 +19,7 @@ public class OptionalTest {
     // NullableCheck
     private static <T> Optional<T> getNameWithNullCheck(T t){
 
-        return Optional.ofNullable(t);
+        return Optional.ofNullable(t); // handles null if t is null
     }
 
 

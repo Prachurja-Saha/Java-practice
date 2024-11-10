@@ -27,6 +27,8 @@ public class Extra {
         }
         */
 
+        // 2 method signature -> 1. new ArrayList<>(Collection<? extends E>) -> return mutable list
+        //                       2. new ArrayList<>(E[] array) -> return immutable list
         List<E> mutableList = new ArrayList<>(Arrays.asList(elements)); // wrapping
         // ArrayList(Collection<? extends E> c)
 
