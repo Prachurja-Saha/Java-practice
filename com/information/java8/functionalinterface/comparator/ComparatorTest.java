@@ -1,14 +1,17 @@
 package com.information.java8.functionalinterface.comparator;
 
 import java.util.Comparator;
-
-public class ComparatorTest implements Comparator {
+class User{
+    public int a;
+}
+public class ComparatorTest implements Comparator<User> {
 
     @Override
-    public int compare(Object o1, Object o2) { // Here instead of Object U have to Provide Generic T or any Class Obj
+    public int compare(User o1, User o2) { // Here instead of Object U have to Provide Generic T or any Class Obj
         // Then we can compare by that
         return 0;
     }
+
 
 //    compareTo() Method Behavior:
 //If the values are equal: compareTo() will return 0.

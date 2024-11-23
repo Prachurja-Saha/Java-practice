@@ -1,0 +1,1 @@
+# POJO stands for Plain Old Java Object
