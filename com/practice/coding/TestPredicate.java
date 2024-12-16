@@ -27,6 +27,18 @@ class User {
                 ", dob=" + dob +
                 '}';
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getRoll() {
+        return roll;
+    }
+
+    public LocalDate getDob() {
+        return dob;
+    }
 }
 
 public class TestPredicate {

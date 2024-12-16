@@ -13,7 +13,7 @@ public class OptionalTest {
     private static <T> Optional<T> getName(T t){
 
         /* if t is Null then Exception at below line so we have to use Optional.Nullable*/
-        return Optional.of(t);
+        return Optional.of(t); // requires non null
     }
 
     // NullableCheck

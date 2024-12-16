@@ -69,7 +69,7 @@ public class ThreadMethods extends Thread {
                     sleepingThread.start();
                     // Give the thread a moment to start sleeping
                     try {
-                        Thread.sleep(2000);
+                        Thread.sleep(2000); // current thread (here it is main thread)
                     } catch (InterruptedException ignored) {
 
                     }

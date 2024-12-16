@@ -6,9 +6,9 @@
 
 
 # ROM -> Read Only Memory
-1. Inbuilt software provided my computer company (Asus, Hp etc.)
+1. Inbuilt software provided by computer company  i.e. (Asus, Hp etc.)
 2. Whatever the instruction provided by company it cannot be changed, so it is permanent 
-3. Data Will not change inside RAM so its Non Volatile.
+3. Data Will not change inside ROM so its Non Volatile.
    Not only in computer can be anywhere i.e. washing machine, car, Microwave, Remote fridge etc.
 
 Type of ROM 

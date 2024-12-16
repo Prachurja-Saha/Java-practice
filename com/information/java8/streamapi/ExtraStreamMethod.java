@@ -15,6 +15,7 @@ public class ExtraStreamMethod {
         //1// Counting, GroupingBy
         String name = "aabbbabcadccccddabbb";
 
+        // Single level
         Map<Character, Long> getFrequencyOfCharacter = name.chars() // converting IntStream -> ascii Integer type
                 .mapToObj(ascii -> (char) ascii) // converting ascii to character
                 //// groupingBy(Function<? super T, ? extends K> classifier, Collector<? super T, A, D> downstream)
@@ -27,6 +28,14 @@ public class ExtraStreamMethod {
                 .collect(Collectors.counting());
 
         System.out.println("Size of Name : " + sizeOfName); // Size of String
+
+        // Multilevel we can provide grouping by inside grouping by
+        List<String> fruitList = List.of("apple", "apricot", "banana", "blueberry", "pear", "peach", "plum");
+        Map<Character, Map<Integer, List<String>>> multiLevelGrouping
+                = fruitList.stream() .collect(Collectors.groupingBy( s -> s.charAt(0),// First-level grouping by first character
+                Collectors.groupingBy(String::length)));
+
+        System.out.println("Multi level Grouping :" + multiLevelGrouping);
 
 
         //2//  toList(), toSet(), toMap()

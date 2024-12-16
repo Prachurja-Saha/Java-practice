@@ -65,8 +65,15 @@ public class ThreadPoolTest {
         executorService.shutdown();
 
         // It waits till 10 sec max if all threads operation completed within 10 sec then main thread will continue
-        if(!executorService.awaitTermination(4, TimeUnit.SECONDS)){
-            System.out.println("Operation is taking more that 4 sec ");
+        // Wait for all tasks to complete or timeout after 10 seconds
+        /* It blocks the main threads for all the executor to be completed, if thread is taking more
+        * than 10 sec it will go inside if condition, than main threads unblocked. If threads completed before
+        * 10 sec i.e 5 sec all the thread execution completed than after 5 sec it unblocks main thread */
+        if(!executorService.awaitTermination(10, TimeUnit.SECONDS)){
+            System.out.println("Operation is taking more that 10 sec ");
+
+            // Will attempt to force shutdown all running threads managed by the executor.
+            executorService.shutdownNow();
         }
 
         System.out.println("Total Time taken to peform operation : " + (System.currentTimeMillis()-startTime));
@@ -84,6 +91,7 @@ public class ThreadPoolTest {
             /*
             * This method : Returns true if this task completed. Completion may be due to normal termination,
             * an exception, or cancellation -- in all of these cases, this method will return true
+            * main thread will not wait
             * */
             System.out.println("Done");
         }
