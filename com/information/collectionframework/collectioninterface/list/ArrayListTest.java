@@ -86,6 +86,13 @@ public class ArrayListTest {
         List list = new ArrayList<>();
         list.add("a"); list.add(1); list.add(true);
         System.out.println("--->"+ list);
+
+
+        /* V Important*/
+        // There is 2 types of stream operation
+        // 1: Intermediate Operations -> filter(), map(), and sorted() etc.
+        // This operation is lazy and will not execute until a terminal operation is applied.
+        // 2: Terminal Operations -> forEach(), collect(), reduce(), and count() etc.
     }
 
 }

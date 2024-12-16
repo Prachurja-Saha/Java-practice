@@ -18,3 +18,6 @@ Threads are reused for multiple requests, allowing the server to handle many use
 Asynchronous Processing:
 Many web applications use asynchronous processing to handle I/O operations without blocking threads. 
 This allows a single thread to handle multiple tasks concurrently, increasing the overall capacity.
+
+# Need to know How Async operation is better for concurrent threads 
+# ( my personal reason may be -> it does not stops the threads

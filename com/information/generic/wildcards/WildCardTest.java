@@ -1,5 +1,6 @@
 package com.information.generic.wildcards;
 
+import java.util.ArrayList;
 import java.util.List;
 /** The declaration List<? extends Number> numbers
  * means that numbers can be a list of Number or any subclass of Number.
@@ -18,6 +19,9 @@ public class WildCardTest {
     public static void main(String[] args){
         WildCardTest wildCardTest = new WildCardTest();
 
+        List<?> wildList = new ArrayList<>();
+//        wildList.add(1);  C.T Error
+//        wildList.add("a"); Error
         List<?> anyList = List.of("1",1,30.2123,true); // use of wildcards
 //        anyList.add(""); // C.T error
         wildCardTest.printListAnyType(anyList);
