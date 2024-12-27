@@ -13,6 +13,10 @@
   example :
   class A{}  
   class B extends A{}
+* Upcasting enables polymorphism, which allows a single interface to be used for a general class of actions. 
+  This makes it easier to write flexible and reusable code.
+* Parent reference -> multiple object implementation (gives flexibility)
+  Using Upcasting we are only allowing common instance of super and child class
 
 A a=new B();//upcasting
 

@@ -19,6 +19,12 @@ public class CastingTest {
             a2 = (String) obj2;
         }
 
+        int x = 10;
+        double d  = x;
+        System.out.println(" Int to Double " + d); // output : 10.0
+        int y = (int)d;
+        System.out.println(" Double to int " + y);
+
         int k =6;
         while (k > 0) {
             if (k % 2 == 0) {

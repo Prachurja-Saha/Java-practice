@@ -55,3 +55,39 @@ public class StaticClassTest { // static class should be Inner class or nested c
 
 
 }
+
+/*
+*
+* what i know static has only one memory?
+You're right that static fields and methods in a class have only one instance in memory,
+*  which is shared among all instances of that class. However, when it comes to static inner classes, it's a bit different.
+
+Static Inner Classes:
+static inner classes are nested classes that do not have a reference to an instance of their enclosing class.
+They can have their own instances and do not share state like static fields/methods do.
+
+When you create instances of a static inner class, each instance is independent. For example:
+*
+* public class OuterClass {
+    public static class StaticInnerClass {
+        private String value;
+
+        public StaticInnerClass(String value) {
+            this.value = value;
+        }
+
+        public String getValue() {
+            return value;
+        }
+    }
+
+    public static void main(String[] args) {
+        StaticInnerClass instance1 = new StaticInnerClass("Value1");
+        StaticInnerClass instance2 = new StaticInnerClass("Value2");
+
+        System.out.println(instance1.getValue()); // Output: Value1
+        System.out.println(instance2.getValue()); // Output: Value2
+    }
+}
+
+* */

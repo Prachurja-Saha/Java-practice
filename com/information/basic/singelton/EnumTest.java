@@ -32,6 +32,7 @@ public enum EnumTest {
 
         EnumTest enumTest = EnumTest.MERCURY;
         System.out.println(enumTest.getMass());
+//        EnumTest enumTest1 = new EnumTest();
 
         if(EnumTest.MERCURY == EnumTest.NEPTUNE) {
             System.out.println("Same");
