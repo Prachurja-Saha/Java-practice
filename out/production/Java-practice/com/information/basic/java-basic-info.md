@@ -1,7 +1,7 @@
-
+# ByteCode(intermediate form of code(1010) that machine can understand) is platform independent(can run anywhere)
 // JRE, JVM, JDK
 
-JVM -> JAVA Virtual machine
+# JVM -> JAVA Virtual machine (piece of software where java code runs)
 1) Provides runtime environment in which Java bytecode can be executed.
 2) Platform independent
 

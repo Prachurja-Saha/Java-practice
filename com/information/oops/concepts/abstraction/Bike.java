@@ -7,7 +7,7 @@ package com.information.oops.concepts.abstraction;
  * The abstract class can also be used to provide some implementation of the interface.
  * In such case, the end user may not be forced to override all the methods of the interface.
  */
-abstract class Bike implements Interface1 { // abstract class must contain one abstract method
+public abstract class Bike implements Interface1 { // abstract class must contain one abstract method
 
    // A method which is declared as abstract and does not have implementation is known as an abstract method.
     abstract void run();

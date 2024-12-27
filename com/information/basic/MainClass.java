@@ -2,6 +2,7 @@ package com.information.basic;
 
 import com.information.basic.singelton.EnumTest;
 
+// In JAVA There is no private and protected class
 public class MainClass {
 
     public String a;
@@ -24,6 +25,7 @@ public class MainClass {
 
     public static void main(String[] args) {
 
+        String xyz="", abc="";
         EnumTest enumTest = EnumTest.MERCURY;
 
         System.out.println(enumTest.getMass());

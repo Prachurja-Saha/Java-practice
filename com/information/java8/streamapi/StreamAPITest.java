@@ -10,9 +10,10 @@ import java.util.stream.Stream;
 public class StreamAPITest {
 
     /*
+    Stream is Interface
     * Advantage of Stream
     * 1. Readability -> b/c of declarative approach
-    * 2. Flexibility -> variety of operation i.e filter, map etc
+    * 2. Flexibility -> variety of operation i.e. filter, map etc.
     * 3. Parallelism -> can be processed in parallel. performance boost for large collections
     * 4. Encapsulation ->
     *
