@@ -1,6 +1,7 @@
 package com.information.basic.imp;
 
 
+
 public class ObjectInfo {
 
     /*
@@ -53,6 +54,18 @@ public class ObjectInfo {
             System.out.println("Two different object of Integer class and also outside the cache range");
         }
 
+        try {
+            ObjectInfo objectInfo = new ObjectInfo();
+            objectInfo.testException();
+        } catch (Exception e ) {
+            System.out.println(e.getMessage());
+        }
+
     }
 
+    public int testException(){
+        int d = 10/0; // If there is exception it  will go to caller method even without throws (throws just provide type)
+
+        return d;
+    }
 }

@@ -6,8 +6,9 @@ SCP is present in Heap area after 1.7 version before 1.7 version -> method area
 
 2 ways to create an object of String [by literal and by new keyword]
 
-1. String s1 = new String("Deepak") -> { 
-                                         Heap:{
+
+1. String s1 = new String("Deepak") -> {    // Here "Deepak" is string literal so it will create inside scp also and due
+                                         Heap:{                                     to new keyword outside scp also 2 obj
      new keyword  [s1 is reference]  -->  {Deepak Object1}
                                              SCP: {
 created by String literal [JVM internally refer] --> {Deepak Object2} // literal obj

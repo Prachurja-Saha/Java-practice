@@ -45,7 +45,7 @@ public class ExceptionTest {
             System.out.println("Unknown Exception");
         }
 
-        /* Stack trace method called*/
+        /* Stack trace method called*/ // pass the exception to caller method
         try {
             level1();
         } catch (ArithmeticException a) {
@@ -78,6 +78,8 @@ public class ExceptionTest {
         /* Custom Exception -> extends at Runtime to handle runtime exception and called the super constructor*/
     }
 
+    // Throws just inform caller method the type of exception even without throws exception will be pass to caller method
+    //  we can see that by stack trace
     /* Throws */ //VVIMP// If we use throw than also we have to use Throws to inform the method caller
     public static void method1() throws FileNotFoundException { // It means informing caller method that this method
         // could throw exception FileNotFoundException so handle it in caller method
