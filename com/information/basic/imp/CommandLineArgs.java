@@ -1,5 +1,7 @@
 package com.information.basic.imp;
 
+/* WE ARE LEARNING JAVA SE WHERE REQUEST ARE COMMING FROM COMMAND LINE ARGUMENT BUT IN WEB APPLICATION (i.e. JAVA EE )
+REQUEST IS COMING FROM BROWSER OR WEB REQUEST*/
 public class CommandLineArgs {
 
     /* We can interact with the system with 2 method */

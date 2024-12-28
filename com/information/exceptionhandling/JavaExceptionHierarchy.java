@@ -24,7 +24,7 @@ public class JavaExceptionHierarchy {
     * It's not the part of Java Class hierarchy, these are detected by the Java compiler
     * */
 
-    // Checked Exceptions
+    // Checked Exceptions ---> Compile time Exception
     /*
     * Checked Exceptions are exceptional scenarios that we can anticipate in a program and try to recover
     * from it. For example, FileNotFoundException.
@@ -34,7 +34,7 @@ public class JavaExceptionHierarchy {
     * we must catch it in the same method, or we have to propagate it to the caller using the throws keyword.
     * */
 
-    // RunTime Exception
+    // RunTime Exception or unchecked exception
     /*
     * We Already Know
     * */
