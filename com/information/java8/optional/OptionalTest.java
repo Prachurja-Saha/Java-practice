@@ -28,6 +28,7 @@ public class OptionalTest {
         /* Creation of Optional */ System.out.println("Creation of optional started ");
 
         Optional<String> info = Optional.of("Info");
+        // info.orElseThrow(RuntimeException::new).getClass() // if info null then throw
         System.out.println(info.get());
 
         // Checking null

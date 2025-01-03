@@ -4,7 +4,13 @@ package com.information.collectionframework.collectioninterface.list;
 import java.util.*;
 
 /**
+ * <div style="color:red">
+ *     List<Integer> l = new ArrayList<>() we use this to achieve polymorphism concept
+ *     we can reuse and it gives flexibility, we can change from arraylist to linklist
+ *     <span style="color:yellow">allows you to change the implementation later without affecting the rest of your code.</span>
+ * </div>
  * Dynamic Array Size is not fix double if capacity full initial capacity 10
+ *
  */
 public class ArrayListTest {
 

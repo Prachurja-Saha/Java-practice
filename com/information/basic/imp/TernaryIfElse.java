@@ -10,6 +10,8 @@ public class TernaryIfElse {
         int age = 21;
 
         String result = (age>18) ? "Eligible for vote" : "Not eligible for vote";
+
+        System.out.println((age>19 && age<=21)? "this is in range": "Not in range");
         System.out.println(result);
 
     }
