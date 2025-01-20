@@ -2,6 +2,7 @@
 In Java, a callback is a technique where you pass a piece of executable code(typically as an object or a lambda function) 
 to be executed at a later time. Callbacks are widely used for asynchronous programming, event handling, 
 and designing flexible and reusable code.
+generally callback methods are called after async operation done or completed
 
 How Callbacks Work:
 Definition: A callback is a reference to a method or function that is passed as an argument to another method. 
