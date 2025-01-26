@@ -47,6 +47,7 @@ public class StringBasic {
         // # String Builder same as it is String builder only difference is non synchronized method
         // Performance increased
         StringBuilder stringBuilder = new StringBuilder("Rahul");
+        stringBuilder.append("Sen");
 
     }
 

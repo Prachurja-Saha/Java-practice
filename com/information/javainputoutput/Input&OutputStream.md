@@ -6,7 +6,7 @@ InputStream: Used for reading bytes from a source.
 OutputStream: Used for writing bytes to a destination.
 Common Usage: Reading/writing files, network communication, handling binary data.
 
-# InputStream
+# InputStream ---> Abstract class
 InputStream is an abstract class that defines methods to read bytes from a source (e.g., file, network, memory). 
 Some commonly used subclasses are:
 
@@ -20,7 +20,7 @@ int read(): Reads the next byte of data from the input stream and returns it as 
 int read(byte[] b): Reads some number of bytes from the input stream and stores them into the buffer array b.
 void close(): Closes the input stream and releases any system resources associated with it.
 
-# OutputStream
+# OutputStream ---> Abstract class
 OutputStream is an abstract class that defines methods to write bytes to a destination (e.g., file, network, memory). 
 Some commonly used subclasses are:
 

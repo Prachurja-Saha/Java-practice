@@ -76,6 +76,15 @@ public class ThreadMethods extends Thread {
 
                     // Now, interrupt the sleeping thread(during this time sleepingThread is still executing
                     sleepingThread.interrupt(); // -> in this line it will throw interrupted exception
+
+                    Main Thread Sleeps: The main thread (from which sleepingThread was started)
+                    then sleeps for 2 seconds (Thread.sleep(2000);).
+                    This ensures that sleepingThread has started and is in the sleep state.
+
+                    Interrupting the Thread: After the main thread wakes up, it calls sleepingThread.interrupt();
+                    to interrupt sleepingThread while it is still sleeping.
+                    This will result in InterruptedException being thrown in sleepingThread,
+                    causing it to print "Thread was interrupted during sleep."
                 }
             }
 
