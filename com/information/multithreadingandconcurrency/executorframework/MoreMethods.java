@@ -9,7 +9,6 @@ public class MoreMethods {
     public static void main(String[] args) throws InterruptedException {
 
         /* We Can Create Multiple Callable/ Runnable */
-
         ExecutorService executorService = Executors.newFixedThreadPool(3);
 
         /* Without invoke all */

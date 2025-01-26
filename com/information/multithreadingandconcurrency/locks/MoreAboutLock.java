@@ -110,14 +110,15 @@ class DeadLockTest {
     private final Object lock2 = new Object();
 
     public void method1() {
-        synchronized (lock1) {
+        synchronized (lock1) {  // Thread acquire lock1 object, it means lock1 is being used so whenever this lock1 will
+                                // be released/no used synchronized block will unblock
             System.out.println("Method1: Acquired lock1");
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            synchronized (lock2) {
+            synchronized (lock2) { // lock2 is acquired by thread2
                 System.out.println("Method1: Acquired lock2");
             }
         }
