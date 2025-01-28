@@ -2,6 +2,7 @@ package com.information.multithreadingandconcurrency.executorframework;
 
 import java.util.concurrent.*;
 
+/* Implements Future interface */
 public class CompletableFutureTest {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
@@ -30,9 +31,9 @@ public class CompletableFutureTest {
         // We can stop main thread by
         // future2.join(); or  future2.get();
 
+        // Returns new completable future
         CompletableFuture<Void> c = CompletableFuture.allOf(future, future2); // invoking all
         c.join(); // stops main thread, basically this becomes synchronous
-
 
         // Then apply
         CompletableFuture<String> future3 = CompletableFuture.supplyAsync(() -> {
@@ -42,10 +43,13 @@ public class CompletableFutureTest {
                 System.out.println(Thread.currentThread().getName() + "is completed");
             } catch (Exception _){}
             return "OK";
-        }).thenApply(x -> x + x); // OK OK response after execution complete
+        }).thenApply(x -> {
+            System.out.println(x+x); // This will print OKOK after main thread we dont need future.get to block
+            return x + x;
+        }); // OK OK response after execution complete
         // we can use .timeout to provide the custom execution time
 
-        System.out.println(future3.get());
+        //System.out.println(future3.get());
 
         /* Using executor service*/
         ExecutorService executorService = Executors.newFixedThreadPool(2);
@@ -57,6 +61,7 @@ public class CompletableFutureTest {
             } catch (Exception _){}
             return "OK3";
         }, executorService).orTimeout(1, TimeUnit.SECONDS).exceptionally(s -> "Timeout");
+
         System.out.println(future4.get());
 
         executorService.shutdown(); // without this main thread will not stop
