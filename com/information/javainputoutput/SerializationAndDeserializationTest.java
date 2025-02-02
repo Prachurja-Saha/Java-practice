@@ -34,8 +34,8 @@ public class SerializationAndDeserializationTest {
     public void serializationTest(){
 
         Student student = new Student("John", 25);
-        try (FileOutputStream fileOut = new FileOutputStream("student.ser");
-             ObjectOutputStream out = new ObjectOutputStream(fileOut)) {
+        try (FileOutputStream fileOut = new FileOutputStream("student.ser"); // FileOutputStream: Opens a file to write the byte stream.
+             ObjectOutputStream out = new ObjectOutputStream(fileOut)) { // ObjectOutputStream -> convert byte stream
             // Serialization: Writing object to file
             out.writeObject(student);
             System.out.println("Student object serialized successfully.");
@@ -57,6 +57,14 @@ public class SerializationAndDeserializationTest {
     }
 
     public static void main(String[] args) {
-
+        SerializationAndDeserializationTest test = new SerializationAndDeserializationTest();
+        test.serializationTest(); // Serialize the object
+        test.deserializationTest(); // Deserialize the object
     }
+
+    /*
+    *  IMP point
+    *  REST APIs: Objects are serialized to JSON using libraries like Jackson, no Serializable needed.
+    *  JPA: Objects are mapped to database records, no Serializable needed unless for specific cases.
+    * */
 }

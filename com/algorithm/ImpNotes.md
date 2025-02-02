@@ -1,0 +1,1 @@
+#  String.indexOf(value)[return -1 if not present](O(1))  is better than String.contains(value)(O(N))

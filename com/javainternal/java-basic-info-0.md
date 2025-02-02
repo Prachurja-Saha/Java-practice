@@ -1,23 +1,29 @@
 # ByteCode(intermediate form of code(1010) that machine can understand) is platform independent(can run anywhere)
 // JRE, JVM, JDK
 
-# JVM -> JAVA Virtual machine (piece of software where java code runs)
-1) Provides runtime environment in which Java bytecode can be executed.
-2) Platform independent
-
 JRE -> JAVA runtime environment
 1) Set of software tools which are used for developing Java applications
 2) It contains a set of libraries + other files that JVM uses at runtime.
 3) It is the implementation of JVM
 
-JDK -> JAVA Development kit
-The JDK contains a private Java Virtual Machine (JVM) and a few other resources such as an interpreter/loader (java),
-a compiler (javac), an archiver (jar), a documentation generator (Javadoc), etc. to complete the development of
-a Java Application.
+# JDK -> JAVA Development kit (It includes several tools, utilities, and libraries that assist in Java programming.)
+Key Components :
+- Java Compiler (javac): Translates Java source code into bytecode.
+- Java Runtime Environment (JRE): Part of the JDK that includes the JVM, core libraries, and other components necessary 
+                                  for running Java applications.
+- Java Virtual Machine (JVM): Interprets the compiled Java bytecode and executes it on the host machine, 
+                              providing platform independence.
+- Java Libraries: A comprehensive set of standard libraries that provide essential functionalities like data structures,
+                  input/output operations, networking, graphical user interface development, etc.
+- Java Debugger (jdb): Helps in debugging Java programs by providing features like setting breakpoints, 
+                       examining variables, and stepping through code.
+- JavaDoc: A tool used for generating API documentation in HTML format from Java source code comments.
+- Java Archive (JAR) Tools: Utilities for packaging Java classes and associated resources into JAR files, 
+                            which can be used to distribute Java applications and libraries.
 
 JDK : { 
 JRE: {JVM, Set of libraries, other files}, 
-Development tool : {i.e javac, javadoc..etc} 
+Development tool : {i.e. javac, javadoc..etc} 
 } 
 
 # Data types
@@ -33,19 +39,7 @@ Ans: It is because the object is not required to call a static method. If it wer
 JVM creates an object first then call main() method that will lead the problem of extra memory allocation.
 
 # this() constructor use 
-1) this() method will call the default constructor
-2) this(5) method will call the parameterized constructor
-3) Student(int roll,String name,String course){  
-   this.roll=roll;  
-   this.name=name;  
-   this.course=course;  
-   }  
-
-   Student(int roll,String name,String course,float fee){  
-   this(roll,name,course);//reusing constructor-->IMPORTANT:this(roll,name,course)should be always before this.fee = fee
-   this.fee=fee;  --> should After - this(roll,name,course)
-   }
-4) We can pass this as an argument: 
+ We can pass this as an argument: 
    class S2{  
      void m(S2 obj) {  
       System.out.println("method is invoked");  

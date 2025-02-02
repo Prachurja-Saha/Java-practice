@@ -1,3 +1,6 @@
+# JVM -> JAVA Virtual machine (piece of software where java code runs)
+1) Provides runtime environment in which Java bytecode can be executed.
+2) Platform dependent
 
 ### 1. Class Loader Subsystem
 The Class Loader Subsystem loads Java class files into memory for execution.
@@ -6,7 +9,8 @@ The Class Loader Subsystem loads Java class files into memory for execution.
 2. **Extension Class Loader**: Loads additional classes from the `jre/lib/ext` directory.
 3. **Application Class Loader**: Loads classes from your program's specified paths.
 
-Imagine you have a `.java` file. When you compile it, it becomes a `.class` file with bytecode. This bytecode is what gets loaded into the JVM.
+Imagine you have a `.java` file. When you compile it, it becomes a `.class` file with bytecode. 
+This bytecode is what gets loaded into the JVM.
 
 ### 2. Runtime Data Areas
 The JVM uses several data areas to run your program.
