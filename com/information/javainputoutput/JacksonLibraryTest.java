@@ -6,6 +6,9 @@ public class JacksonLibraryTest {
     /*
     * Parsing: In Java, the ObjectMapper from Jackson or any other JSON library works with strings to parse the JSON
     * structure and convert it into Java objects.
+    *
+    * JSONString is a string representation of a JSON object. In Java, when you serialize a Java object to JSON using a
+    * library like Jackson, the result is a JSON string. This JSON string is a textual representation of the JSON data.
     * */
 
     public static void main(String[] args){
@@ -13,8 +16,8 @@ public class JacksonLibraryTest {
         // jsonString is the JSON data in string format.
         // mapper.readValue(jsonString, User.class) converts the JSON string into a Java object of type User.
 
-        // serialization -> [ json string --> java object ]
-        // deserialization -> [java object ---> json string ]
+        // serialization -> [ java object ---> json String ]
+        // deserialization -> [ json string ----> java object]
 
         /*
         * When a Java application receives JSON data, especially in a web application context

@@ -11,7 +11,7 @@ public class StaticClassTest { // static class should be Inner class or nested c
     static int x = 100;
 
     static private class InnerClass {
-
+        int a = 10; Object obj = new Object(); // local variable
         void display(){
             System.out.println("static inner class");
         }

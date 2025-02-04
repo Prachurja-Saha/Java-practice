@@ -27,6 +27,7 @@ public class StreamAPITest {
         Stream<Integer> integerStream = integerList.stream();
         System.out.println("Interger Stream : " + integerStream.toList());
 
+
         // 2
         Stream<String> stringStream = Stream.of("abc","xyz");
         System.out.println("String Stream : " + stringStream.toList());

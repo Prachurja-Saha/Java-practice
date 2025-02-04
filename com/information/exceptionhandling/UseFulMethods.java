@@ -3,7 +3,7 @@ package com.information.exceptionhandling;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-
+// Throwable is class
 public class UseFulMethods {
 
     /*Java - 7 Features*/

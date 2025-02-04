@@ -2,7 +2,7 @@ package com.information.basic;
 
 import com.information.basic.singelton.EnumTest;
 
-// In JAVA There is no private and protected class
+// In Java, you cannot have a top-level class that is private or protected but nested can
 public class MainClass {
 
     public String a;

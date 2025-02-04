@@ -48,5 +48,30 @@ public class Array {
         }
 
 
+        Integer[] i = {1,2,3};
+        System.out.println(i); // address value of array (default toString() representation)
+
+        //i[1] is a reference to the Integer object at index 1.
+        System.out.println(i[1]); // Here it should print the address value b/c Integer is obj type
+        // but here toString() is override, check below Integer class
+        /*
+        public final class Integer extends Number implements Comparable<Integer> {
+            private final int value;
+
+            public Integer(int value) {
+                this.value = value;
+            }
+
+            @Override
+            public String toString() {
+                return Integer.toString(value);
+            }
+
+            public static String toString(int i) {
+                return String.valueOf(i);
+                }
+            }
+        */
+
     }
 }

@@ -1,6 +1,6 @@
 package com.information.generic.extendgeneric;
 
-public class DogGeneric2<T> {// if we mention extends<T entend Animal> than can use Animal method inside class
+public class DogGeneric2<T> {// if we mention extends<T extend Animal> than can use Animal method inside class
 
     public T type;
 
