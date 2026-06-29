@@ -70,7 +70,7 @@ class Square extends Rectangle {
 }
 
 /*
-* Square is a subclass of Rectangle, which in turn is a subclass of Shape. This follows the LSP because instances of
+* Square is a subclass of Rectangle, which in turn is a subclass of Shape. This follows the LSP because instances of square
 *  can replace instances of Rectangle and Shape without causing any issues. Both Square and Rectangle classes provide a
 *  getArea method, which adheres to the contract provided by the Shape class.
 * */

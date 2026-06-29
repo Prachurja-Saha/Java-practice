@@ -34,3 +34,11 @@ obj.msg();
 }  
 }
 ***
+
+# Key Principles of Encapsulation:
+- Data Hiding: The internal state (variables or fields) of a class are declared as private. This restricts direct 
+         access to these variables from outside the class, preventing unauthorized modification or corruption of data.
+- Controlled Access: Public methods, known as "getter" and "setter" methods (or mutator and accessor methods), 
+          are provided to allow controlled access to the private variables.
+- Getter methods: retrieve the value of a private variable.
+- Setter methods: modify the value of a private variable, often including validation logic to ensure data integrity.

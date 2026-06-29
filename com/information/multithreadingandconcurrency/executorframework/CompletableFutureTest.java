@@ -1,7 +1,16 @@
 package com.information.multithreadingandconcurrency.executorframework;
 
 import java.util.concurrent.*;
-
+/**
+ * CompletableFuture is a class in Java (java.util.concurrent) used for asynchronous programming.
+ * It allows you to execute tasks non-blockingly and chain multiple tasks together. <br>
+ *
+ * <div style="color:yellow"> Key Features: </div>
+ * - Runs tasks asynchronously (without blocking the main thread).<br>
+ * - Supports callback chaining (thenApply(), thenAccept(), thenRun()). <br>
+ * - Supports combining multiple futures (thenCombine(), allOf(), anyOf()). <br>
+ * - Allows manual completion (complete(), completeExceptionally()). <br>
+ */
 /* Implements Future interface */
 public class CompletableFutureTest {
 
@@ -55,12 +64,12 @@ public class CompletableFutureTest {
         ExecutorService executorService = Executors.newFixedThreadPool(2);
         CompletableFuture<String> future4 = CompletableFuture.supplyAsync(() -> {
             try{
-                System.out.println(Thread.currentThread().getName() + "is running");
+                System.out.println(Thread.currentThread().getName() + "is running =");
                 Thread.sleep(5000);
-                System.out.println(Thread.currentThread().getName() + "is completed");
+                System.out.println(Thread.currentThread().getName() + "is completed =");
             } catch (Exception _){}
             return "OK3";
-        }, executorService).orTimeout(1, TimeUnit.SECONDS).exceptionally(s -> "Timeout");
+        }, executorService).orTimeout(10, TimeUnit.SECONDS).exceptionally(s -> "Timeout");
 
         System.out.println(future4.get());
 

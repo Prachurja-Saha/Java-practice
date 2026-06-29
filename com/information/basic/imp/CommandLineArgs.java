@@ -11,11 +11,31 @@ public class CommandLineArgs {
 
     /* Difference Between Terminal Shell and console */
     // Terminal: Interface where we write command (set of instructions) to perform operation
-    // Shell Script: A file(.sh) with commands written in a shell scripting language , designed to be executed by the shell.
-    // To run (execute) the shell script, we use the terminal.
+    // Command: line which we type in terminal
+
+    // Shell Script: A file(i.e -> .sh, .zsh) with commands written in a shell scripting language,
+    // designed to be executed by the shell.  To run (execute) the shell script, we use the terminal.
+    //    i.e. backup.sh:
+    //    #!/bin/bash
+    //    mkdir -p /backup
+    //    cp /data/file.txt /backup/
+    //    echo "Backup completed"
+
+    // There are many types of shell scripts
+    // there are different shells, and each has its own scripting style (though most are similar)
+    /*
+       Shell	Common Script Extension	    Description
+        Bash	   .sh	                    Most common on Linux
+        Zsh	       .zsh	                    macOS default now
+        Ksh	       .ksh	                    Korn shell (older Unix)
+        Csh/Tcsh   .csh	                    C-style syntax
+        Fish	   .fish	                User-friendly modern shell
+    */
+
     // Shell: The interpreter that reads the shell script, processes the commands,
     //        and communicates with the OS to perform the actions. It serves as a bridge between the user
     //        and the operating system.
+
     // -- To know what path of shell we are using
     // (linux and macOS) [default bash] command : echo $SHELL,
     // (Windows) [default cmd or powershell] command :
@@ -27,11 +47,13 @@ public class CommandLineArgs {
     // Others Shell : Zsh Shell or Z Shell [.Zsh], Fish, Ksh etc.
     // Different Shell has their own script but mostly common
 
+    // When a recruiter says “Linux / Shell scripting”, they almost always mean Bash scripting (Bourne Again Shell).
+
     /*
-         User -> Terminal -> Shell -> OS
-                                    ↪ Execute Commands
+         User -> Terminal -> Shell -> OS Kernal
+                                    ↪ Execute Commands -> (hardware)
                                     ↩ Results
-           <- Terminal <- Shell <- OS
+           <- Terminal <- Shell <- OS Kernal
     */
 
     /* Console */
@@ -55,21 +77,3 @@ public class CommandLineArgs {
         }
     }
 }
-
-/*
-*     JDK : It is a software development kit, that includes tools and libraries necessary for developing and
-*           running Java applications. It contains everything.
-*
-*     JDK Components:
-*     Java Compiler (javac): Compiles Java source files into bytecode.
-*     Java Runtime Environment (JRE): Provides the libraries, Java Virtual Machine (JVM), and other components
-*                                     to run Java applications. A subset of the JDK, it includes only the JVM and
-*                                     libraries needed to run Java applications. It is used by end-users who want
-*                                     to run Java programs but not develop them.
-*     Development Tools: Includes tools like the java launcher, javadoc for generating documentation,
-*                        jar for packaging, and more.
-*
-* */
-
-
-/*  How Intellij works internally */

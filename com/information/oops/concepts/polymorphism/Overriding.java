@@ -14,6 +14,10 @@ package com.information.oops.concepts.polymorphism;
  * obj.msg();
  * }
  * }
+ * Reason : You cannot reduce the visibility of an inherited method when overriding it.
+ * here void msg() -> is default modifier
+ *  default is more restricted than protected (so here public and protected void msg allowed)
+ *  private and default not allowed
  */
 public class Overriding extends Parent {
 

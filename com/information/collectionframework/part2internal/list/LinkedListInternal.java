@@ -30,7 +30,9 @@ public class LinkedListInternal<E> {
                 tail = new Node<>(tail, element, null);
                 head.next = tail;
             } else {
-                tail.next = new Node<>(tail, element, null);
+                Node<E> newNode = new Node<>(tail, element, null);
+                tail.next = newNode;
+                tail = newNode;
             }
         }
     }
@@ -76,6 +78,8 @@ public class LinkedListInternal<E> {
         list2.addLast(1);
         list2.addLast(2);
         list2.addLast(3);
+        list2.addLast(4);
+        list2.addLast(5);
 
         Node<Integer> head = list2.getInitialNode();
         while(head != null) {

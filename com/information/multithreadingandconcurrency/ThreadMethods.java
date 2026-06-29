@@ -96,13 +96,30 @@ public class ThreadMethods extends Thread {
         // It is just hint to JVM use other threads not necessary it will work 100%
 
         /* DAEMON THREAD */
-        // User Thread : Created by User to perform operation. Main thread is also User thread (need to cnf)
-        // If user thread is running JVM will wait to finish User thread
+
         // Daemon Threads : Runs in background (if Daemon threads is running JVM will not wait to finish
         // Daemon thread.
         // ** We can Set Demon thread
         ThreadMethods DaemonThread = new ThreadMethods("Daemon thread");
         DaemonThread.setDaemon(true); // works background
+
+        /*
+        * Daemon Threads
+          Purpose: Daemon threads are intended for background tasks that support the application,
+                   such as garbage collection, logging, or monitoring.
+          Lifecycle: If all user (non-daemon) threads, including the main thread, have stopped,
+                     the JVM will terminate, even if daemon threads are still running.
+                     any background tasks being handled by daemon threads, like garbage collection or other maintenance
+                     activities, will be interrupted and left incomplete.
+
+          User (Normal) Threads
+          Purpose: User/Normal threads are the main threads of the application, performing the primary tasks of the program.
+          Lifecycle: The JVM continues to run as long as any user threads are still running.
+                      User threads must complete their execution or be explicitly terminated for the JVM to exit.
+                      the JVM will not stop if the main thread stops while user (normal) threads are still running.
+                      The JVM continues to run until all user threads have finished their execution.
+
+        * */
 
     }
 }

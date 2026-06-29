@@ -2,6 +2,7 @@ package com.information.collectionframework.part2internal.map;
 
 import java.util.LinkedHashMap;
 
+// Hash Table -> Array of linked list
 public class LinkedHashMapInternal {
 
     public static void main(String[] args) {

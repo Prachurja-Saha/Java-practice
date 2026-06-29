@@ -38,7 +38,7 @@ public interface Interface1 {
     /*
      Multiple inheritance is not supported in the case of class because of ambiguity. Ambiguity in Parent class.
      Consider a scenario where A, B, and C are three classes. The C class inherits A and B classes.
-     If A and B classes have the same method and you call it from child class object,
+     If A and B classes have the same method name with different impl i.e(test()) and you call it from child class object,
      there will be ambiguity to call the method of A or B class.
 
      However, it is supported in case of an interface because there is no ambiguity.

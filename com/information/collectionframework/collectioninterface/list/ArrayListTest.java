@@ -85,7 +85,7 @@ public class ArrayListTest {
         /////////////////////////////////// VERY IMP //////////////////////////
         List<Integer> integerList2 = new ArrayList<>();
         integerList2.add(1); integerList2.add(2); integerList2.add(10); integerList2.add(3);
-        integerList2.add(1,12); // Act as linked list it will not replace
+        integerList2.add(1,12); // Act like linked list, but it's not linklist it will not replace(shifting)
         /////////////////////////////////// VERY IMP //////////////////////////
 
         //ANY Element

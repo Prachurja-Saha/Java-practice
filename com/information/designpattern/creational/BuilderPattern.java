@@ -9,6 +9,7 @@ package com.information.designpattern.creational;
  */
 public class BuilderPattern {
 
+    /* The Builder Pattern involves creating a separate class (the Builder) that constructs an object step by step.*/
     public static void main(String[] args) {
         StudentBuilder studentBuilder = new StudentBuilder();
         Student student = studentBuilder.age(18).name("Jack").build();

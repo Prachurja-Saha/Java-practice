@@ -82,3 +82,22 @@ class Bank {
     }
 
 }
+
+/*
+* Key Features of Reentrant Lock:
+Reentrancy: A thread that holds the lock can reacquire it without getting blocked.
+            This means if a thread currently owns the lock, it can enter any synchronized block or method protected
+            by that lock without deadlocking. Thread can enter critical section multiple times if that thread has lock
+            until it gives the lock to other thread. If their 2 different methods with same lock than thread can enter
+Fairness: Reentrant Lock can be configured to use a fairness policy. With fairness,
+          threads acquire the lock in the order they requested it (FIFO order). This prevents thread starvation.
+
+Explicit Locking and Unlocking: Unlike synchronized blocks where the lock is automatically acquired and released,
+                                Reentrant Lock requires manual handling using lock() and unlock() methods.
+
+Condition Variables: Supports multiple Condition objects for more flexible thread communication than Object's wait()/notify().
+
+Interruptible Lock Acquisition: Threads can be interrupted while trying to acquire the lock,
+                                allowing for more responsive applications.
+*
+* */

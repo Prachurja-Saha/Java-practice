@@ -19,7 +19,7 @@ public class HashMapInternal {
     * When we insert into hashmap it will generate array index with help of hash function.
     * after that ->
     *
-    * Scenario 1: If key is not object type
+    * Scenario 1: If key is wrapper (here .equals method is override to check the content)
     * It will check the key that are already present int that index (using equals method) if present value will
     * be replaced otherwise it will insert new key and value [In String and Integer equals method override and check
     * only value]
@@ -30,7 +30,9 @@ public class HashMapInternal {
     * stores data in Array of Nodes
     * */
 
+
     public static void main(String[] args) {
+
 
     }
 }

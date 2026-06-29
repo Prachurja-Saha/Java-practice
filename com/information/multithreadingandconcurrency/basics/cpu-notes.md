@@ -1,7 +1,9 @@
 
 # CPU -> Central Processing Unit i.e Intel, AMDA
 Processor -> Performing a task. (we need to perform task using logically, Arithmetically and also using memory)
-Arithmetic and logical unit, memory unit, control unit
+Arithmetic and logical unit(sorting, searching etc.), memory unit, control unit
+` Serialization/deserialization can be CPU-heavy, especially for large or complex data formats. 
+However, efficient formats and optimized libraries can minimize the impact.`
 
 Inside processor there is core more no. of core better performance.
 Processor size is same but core size is decreasing and increasing the no. (this tech is known as nanotechnology)

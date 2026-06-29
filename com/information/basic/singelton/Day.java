@@ -1,7 +1,7 @@
 package com.information.basic.singelton;
 
 /* More about Enum */
-public final class Day{
+public final class Day{// final class cannot override
 
     public static final Day SUNDAY = new Day("SUNDAY", 0); // single instance (Singleton behaviour)
     public static final Day MONDAY = new Day("MONDAY", 1);

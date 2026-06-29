@@ -9,7 +9,7 @@ public class ComparatorTest implements Comparator<User> {
     @Override
     public int compare(User o1, User o2) { // Here instead of Object U have to Provide Generic T or any Class Obj
         // Then we can compare by that
-        return 0;
+        return o1.a - o2.a;
     }
 
 

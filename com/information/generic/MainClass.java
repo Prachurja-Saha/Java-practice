@@ -1,12 +1,12 @@
 package com.information.generic;
 
-import com.information.generic.extendgeneric.DogGeneric1;
-import com.information.generic.extendgeneric.GermanShepard;
-import com.information.generic.extendgeneric.Husky;
-import com.information.generic.multiplegeneric.MultipleGenericClass3;
-import com.information.generic.simplegeneric.PrinterGeneric0;
+import com.information.generic.boundtype.upperboundtypeparameter.DogGeneric1;
+import com.information.generic.boundtype.upperboundtypeparameter.GermanShepard;
+import com.information.generic.boundtype.upperboundtypeparameter.Husky;
 
 import java.util.ArrayList;
+import java.util.List;
+
 /**
  * ? -> public void processList(List<?> list) {
  *     // You can read from the list but can't add specific types (other than null)
@@ -18,10 +18,7 @@ public class MainClass {
 
     public static void main(String[] args) {
 
-        // BASIC GENERIC
 
-        // cannot be primitive always wrapper class
-        // Printer<int> -> C.T  Error
         PrinterGeneric0<Integer> integerPrinter
                 = new PrinterGeneric0<>(1); // Printer class is parameterize constructor so need to pass parameter
 
@@ -61,12 +58,9 @@ public class MainClass {
         multipleShout(1,2);
         multipleShout(germanShepardDog,i);
 
-        // Multiple Generic in classes
-        MultipleGenericClass3<Integer,Integer> class3 = new MultipleGenericClass3<>();
-
     }
 
-    //Method
+    //Method type generics
     private static <T> void shout(T newType) {
         System.out.println(newType + "!!!!");
     }
@@ -79,4 +73,30 @@ public class MainClass {
     //Your generic type definition for CustomLinkedList<T extends Number, String>
     // is incorrect because generics in Java don't allow multiple types in the form you provided
     // Allowed -> public class CustomLinkedList<T extends Number, U>
+}
+
+class PrinterGeneric0<T> { // can be anything -> T or <XYZ> Here T -> convention
+
+    T show;
+
+    // Convention -> T -> type K-> key V -> value
+    public PrinterGeneric0(T show) {
+        this.show = show;
+    }
+
+    public void printMessage() {
+        System.out.println(this.show);
+    }
+
+    public List<T> sort (List<T> unsortedList) {// Here T should also be in the Class level
+
+        //Not yet done implementation
+
+        return unsortedList;
+    }
+
+    // But there is alternative where we don't need to change class to -> Class<T>
+    // we can use wildcard but problem in wildcard can take any type so better we can bound by extending Number,.. etc
+    // Best ytvideo -> https://www.youtube.com/@geekific
+
 }

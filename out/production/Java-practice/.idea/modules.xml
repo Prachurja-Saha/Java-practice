@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Java-basic-Info-documnet/Java-basic-Info-documnet.iml" filepath="$PROJECT_DIR$/Java-basic-Info-documnet/Java-basic-Info-documnet.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-practice.iml" filepath="$PROJECT_DIR$/.idea/Java-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jigsaw.module.java9/jigsaw.module.java9.iml" filepath="$PROJECT_DIR$/jigsaw.module.java9/jigsaw.module.java9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jigsaw.module.java9.2/jigsaw.module.java9.2.iml" filepath="$PROJECT_DIR$/jigsaw.module.java9.2/jigsaw.module.java9.2.iml" />
     </modules>
   </component>
 </project>

@@ -38,4 +38,12 @@ public class MainClass {
 
 
     }
+/*    # Notes (System.out.println)
+1. System -> Class
+    out -> static member of type PrintStream in System class (public static final PrintStream out = null;)
+    and println is the method of PrintStream class
+    System.out.println()
+            2. String xyz=" ", abc="x"; -> allowed, variable declared in method is called local variable
+    In java there is no global variable, but there is static variable which can be access from any where if it is
+    not declare private*/
 }

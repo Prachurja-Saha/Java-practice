@@ -14,7 +14,7 @@ Heap Allocation Profiler: Enhanced memory profiling capabilities.
 Interface: Can have Private method
 
 # Java 10 (Released March 2018)
-Local Variable Type Inference (var): Allowed type inference for local variables.
+Local Variable Type Inference (var): Allowed type inference for local variables.[ Only for variable inside method ]
 Application Class-Data Sharing (CDS): Improved startup performance.
 Time-Based Release Versions: Introduced a new release model with shorter cycles.
 

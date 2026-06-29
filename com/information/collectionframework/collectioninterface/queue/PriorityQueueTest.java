@@ -12,6 +12,7 @@ public class PriorityQueueTest {
     /*  VERY IMP
     * PriorityQueue might look unordered because a PriorityQueue only ensures that the head of the queue
     * has the highest-priority element.
+    * Priority queue will sort element (asc bt default) and 1st element will be the head and that the priority
     * It does not maintain a globally sorted order for all elements when you print the queue directly.
     * This is due to how PriorityQueue works internally;
       * it's structured as a binary heap where only the head is guaranteed to be the highest priority,
@@ -26,6 +27,7 @@ public class PriorityQueueTest {
         priorityQueue.add(1);
 
         System.out.println(priorityQueue);
+        System.out.println("Head of Queue: " + priorityQueue.peek());
 
         // Reverse Order
         // Method Signature -> PriorityQueue(Comparator<? super E> comparator)
@@ -36,6 +38,7 @@ public class PriorityQueueTest {
         priorityQueue2.add(20);
 
         System.out.println(priorityQueue2);
+        System.out.println("Head of Queue: " + priorityQueue2.peek());
 
     }
 }

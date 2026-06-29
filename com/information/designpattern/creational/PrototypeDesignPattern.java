@@ -2,6 +2,9 @@ package com.information.designpattern.creational;
 
 /**
  * It is used when we want to make copy or clone from existing object
+ * This pattern is used to create new objects by copying existing objects,
+ * which can be more efficient than creating new instances from scratch, especially when the initialization process
+ * is costly or complex.
  */
 public class PrototypeDesignPattern {
 
